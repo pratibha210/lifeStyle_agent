@@ -1,0 +1,303 @@
+/* Profile Detail Section css start */
+.profileDetailCls {
+    height: auto;
+    padding: 5em;
+    background: #f9f9f9;
+}
+.innerProfiesec {
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+    padding: 3em 3em 4em;
+}
+.innerProfiesec h1 {
+    font-size: 40px;
+    color: #020202;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    margin-top: 0;
+}
+.profileSubTitlebar p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #2f2f2f;
+    margin: 0;
+}
+.profileSubTitlebar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+button.MuiButton-root.buttonclass.profileEditButtn {
+    background: transparent;
+    border: 1px solid #362f2f;
+    color: #362f2f;
+    text-transform: capitalize;
+    padding: 0 15px;
+    margin-left: 20px;
+}
+button.MuiButton-root.buttonclass.profileEditButtn:hover {
+    opacity: 0.8;
+}
+.userImgArea {
+    width: 100%;
+    height: 215px;
+    background: #eee url('../../../Images/unnamed.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.userImgArea img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #fff;
+    /* background: #eee url('../../../Images/unnamed.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.profileDetilinner {
+    /* display: flex;
+    align-items: center; */
+    margin: 35px 0 ;
+}
+.profileDetilinner .userImgArea{
+    height: 165px;
+}
+.singleDetailField p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    margin-bottom: 6px;
+}
+.singleDetailField span {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1b1b;
+    font-weight: 400;
+}
+hr.border {
+    margin: 25px 0;
+    border: 1px solid #dadada;
+}
+.profileDetail-rightPart {
+    width: 75%;
+}
+.singleDetailField::after {
+    content: '';
+    width: 1px;
+    height: 85%;
+    background: #eaeaea;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.singleDetailField  {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 8px;
+}
+.singleDetailField.rightborderNone::after{
+    background: transparent;
+}
+.profileSubTitlebar::after{
+    content: '';
+    width: 72%;
+    height: 1px;
+    background: #dadada;
+    position: absolute;
+    right: 0;
+}
+.profilepasswordtitle::after {
+    /* width: 71%; */
+    width: 62%;
+}
+/* Profile Detail Section css end */
+
+/* Edit Profile Section css start */
+.userImgArea.uploadProfileimg {
+    /* width: 30%; */
+    background: transparent;
+    margin-right: 0;
+    padding-top: 16px;
+}
+/* .uploadProfileimg .inputfilewrapper {
+    top: 0;
+    right: 0;
+} */
+.userImgArea.uploadProfileimg img.editpencilcss {
+    width: 15px;
+    height: auto;
+    background: transparent;
+}
+.editprofile-strat .profileDetilinner {
+    align-items: unset;
+    margin-bottom: 0;
+}
+.editProfiletitle.profileSubTitlebar::after{
+    width: 86%;
+}
+.editprofile-strat .buttoncomponent-start {
+    text-align: right;
+    /* margin-top: 30px; */
+}
+button.MuiButton-root.buttonclass.editProfile-saveButn {
+    padding: 0 35px;
+    text-transform: capitalize;
+}
+.profileButnAtea {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 16px 0;
+}
+button.MuiButton-root.buttonclass.profileCancelButn {
+    background: transparent;
+    border: 1px solid #3b63b5;
+    margin-right: 20px;
+    color: #3c64b6;
+}
+.profileEditTitle::after {
+    /* width: 82%; */
+    width: 78%;
+}
+.singleDetailField .phonefieldinput input.textfieldclass {
+    padding: 8px;
+    width: 94%;
+}
+.profileSubTitlebar.profileEditTitle {
+    padding-top: 13px;
+}
+
+.editprofile-strat .singleDetailField {
+    /* padding-right: 16px; */
+    padding: 0 8px;
+    margin-bottom: 12px;
+}
+.singleDetailField .textfieldinput{
+    margin-bottom: 0;
+}
+
+.editprofile-strat .singleDetailField::after {
+    height: 62%;
+    top: unset;
+    /* background: #eaeaea; */
+}
+/* Edit Profile Section css end */
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .profileDetailCls{
+        padding: 2em 1em 1em;
+    }
+    .innerProfiesec {
+        padding: 1em 1em 1.8em;
+    }
+    .profileSubTitlebar::after{
+        background: transparent;
+    }
+    .singleDetailField::after{
+        background: transparent;
+    }
+    .profileSubTitlebar.profileEditTitle{
+        border-top: 1px solid #eee;
+        padding-top: 28px;
+    }
+    .profileSubTitlebar{
+        justify-content: space-between;
+    }
+    .editprofile-strat .userImgArea.uploadProfileimg{
+        padding-top: 0;
+        height: 215px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:568px){
+    .profileSubTitlebar p {
+        font-size: 17px;
+    }
+    button.MuiButton-root.buttonclass.profileEditButtn{
+        padding: 0 12px;
+        margin: 0;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .profileSubTitlebar{
+        justify-content: unset;
+    }
+    .profileSubTitlebar::after{
+        background: #dadada;
+        width: 66%;
+    }
+    .editProfiletitle.profileSubTitlebar::after{
+        width: 84%;
+    }
+    .profileEditTitle::after {
+        width: 74%;
+    }
+    .profilepasswordtitle::after {
+        width: 56%;
+    }
+    .profileSubTitlebar.profileEditTitle{
+        border: none;
+        padding: 0;
+    }
+    /* .profileDetailCls{
+        padding-top: 2em;
+    } */
+}
+
+/* for iPadPro view Responsive start */
+
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px) {
+    .profileSubTitlebar::after {
+        width: 60%;
+    }
+    .editProfiletitle.profileSubTitlebar::after{
+        width: 80%;
+    }
+    .profilepasswordtitle::after{
+        width: 50%;
+    }
+    .profileEditTitle::after{
+        width: 70%;
+    }
+    .MuiGrid-root.spacingCls.MuiGrid-item {
+        padding-right: 0;
+    }
+    /* .profileDetilinner .userImgArea {
+        width: 150px;
+    } */
+    .profileDetilinner .profiledpuploader {
+        width: 150px;
+    }
+    .editprofile-strat .singleDetailField::after{
+        background-color: transparent;
+    }
+    .profileDetailCls{
+        padding: 5em 3em;
+        background: #efefef;
+    }
+}
+/* for iPadPro view Responsive end */
+
+/* for Mac Book Air Resolution responsive start */
+@media screen and (min-width:1440px){
+    .profileSubTitlebar::after{
+        width: 74%;
+    }
+    .profilepasswordtitle::after{
+        width: 66%;
+    }
+    .profileEditTitle::after{
+        width: 80%;
+    }
+
+    
+}
+/* for Mac Book Air Resolution responsive end */

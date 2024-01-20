@@ -1,0 +1,854 @@
+/* Reference css start */
+.referenceliststart .pfimagediv{
+    height: 100%;
+}
+/* Reference css end */
+
+/* TrainingVideoSec css start */
+.filterdropdown.dropdownancher .MuiList-root .dropcls:last-child {
+    border-top: none;
+    padding-top: 0;
+}
+.trainingVideoSec {
+    /* background: #f8f8f8; */
+    overflow: hidden;
+}
+.traingnodatafound {
+    padding: 2em 2em 2em 2em;
+}
+.traningVideos {
+    display: flex;
+    flex-wrap: wrap;
+    padding:1em 2em;
+    margin: 0;
+}
+ul.traningVideos li {
+
+    list-style: none;
+    padding: 0 19px 38px 19px;
+    width: 30%;
+}
+ul.traningVideos.afterformopen li{
+    width: 263px;
+}
+/* TrainingVideoSec css end */
+
+/* MarkeetingListSec css start */
+.marketingtitlesearchbardiv .textfieldinput.serachfieldinputstart {
+    padding: 0;
+    margin: 10px 0 0;
+}
+.marketingtitlesearchbardiv {
+    width: 40%;
+}
+.marketingtitlesearchbardiv .textfieldinput.serachfieldinputstart .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedStart {
+    background-color: #ffffff;
+}
+
+.marketingtitlesec.hidden-md{
+    display: none;
+   }
+.marketingtitlesec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+}
+.marketingtitlesec.forsearchbaraligenment {
+    align-items: flex-end;
+}
+.marketingtitlesec p {
+    margin: 0 25px 0 0;
+    color: #1d2229;
+    font-weight: 500;
+    font-size: 31px;
+    font-family: 'DM Serif Display', serif;
+    display: flex
+}
+.marketinglistectionstart {
+    /* background: #eee; */
+}
+.marketinglist {
+    padding: 2em 2em 2em 2em;
+    
+}
+.MuiGrid-root.marketingcardstart {
+    padding: 0px 7px;
+    display: flex;
+}
+
+
+.carddetaildialog .MuiDialog-paperWidthSm {
+    max-width: 800px;
+    width: 800px
+}
+.carddetaildialog .MuiDialog-paperScrollPaper {
+    max-height: calc(100% - 219px);
+}
+
+.listtopheader {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+}
+/* button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn.messageagentbtn{
+    margin-left: 12px
+} */
+.buyerlistsection .listtopheader {
+    width:unset
+}
+.buyerlistsection .listtopheader .buttoncomponent-start{
+    margin-right: 0
+}
+.listtopheader .textfieldinput.serachfieldinputstart{
+    width: 45%;
+    padding: 0;
+    /* margin-left: 15px; */
+}
+.listtopheader .buttoncomponent-start {
+    margin-right: 15px;
+}
+.listtopheader .textfieldinput.serachfieldinputstart .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedStart{
+    background-color: white;
+    height: 38px;
+    border: 1px solid #c3c3c3;
+}
+.companystore-sectioncard .MuiCardContent-root {
+    max-height: 90px;
+    min-height: 90px;
+    padding: 24px 15px !important;
+    /* overflow: hidden; */
+}
+.compnystorynodata {
+    width: 100%;
+    padding: 17px 21px;
+}
+/* MarkeetingListSec css end */ 
+
+/* TrainingVideo Detail Section css start */
+.trainingTitleArea .selectfieldinputstart {
+    width: 33%;
+    margin-right: 15px;
+}
+
+
+.trainingVideoDetailSec {
+    background: #fff;
+}
+.trainingVideoDetailSec .player-wrapper {
+    height: 350px;
+    background-color: #000;
+}
+.trainingVideoDetailSec .MuiPaper-root.MuiCard-root {
+    box-shadow: none;
+}
+.MuiCardContent-root.detailCardContent h2.cardHeading {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.MuiCardContent-root.detailCardContent {
+    padding: 15px 20px;
+}
+ul.videoViewDate {
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+ul.videoViewDate li {
+    list-style: none;
+    font-size: 14px;
+    margin-right: 20px;
+    color: #aaa4a4;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-weight: 500;
+}
+li.forBbullet::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #aaa4a4;
+    position: absolute;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+hr.lightBorder {
+    margin: 20px 0;
+    border-width: 0.7px;
+    border-color: #e8e8ea;
+}
+h3.subHeader {
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 17px;
+    color: #2e73f3;
+    font-weight: 500;
+}
+p.subTitle {
+    font-size: 15px;
+    color: #847f7f;
+    font-family: 'Roboto', sans-serif;
+}
+ul.descriptionList {
+    margin: 28px 0;
+    padding-left: 17px;
+}
+ul.descriptionList li {
+    list-style: decimal;
+    font-size: 15px;
+    color: #847f7f;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+.detailattachment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p.attachfilename{
+    margin: 0px 0 0;
+    font-size: 14px;
+    color: #5a5858;
+}
+.detaildownload button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.download-btn:hover{
+    color: #4d74f3;
+}
+.attachfiledtl {
+    border: 1px solid #eee;
+    background: #eeeeeebf;
+    padding: 18px 1em 20px;
+    border-radius: 2px;
+}
+.detailfootersec p.attachtitle{
+    margin: 0 0 15px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 17px;
+    color: #2e73f3;
+    font-weight: 500;
+}
+/* TrainingVideo Detail Section css end */
+
+/* --Buyer book section css start-- */
+.msgagentdialg .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-rounded {
+    width: 50%;
+    height: auto;
+}
+.msgagentdialg .MuiDialogContent-root {
+    padding: 24px 24px 10px;
+}
+.msgagentdialg .MuiDialogActions-root {
+    padding: 0 24px 24px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn.messageagentbtn.dialogsendbtnmsgagent {
+    margin: 0;
+    padding: 0 32px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerbooknavigationbtn {
+    background: transparent;
+    background-color: #d8d8d8;
+    color: #4a4a4a;
+    margin-left: 15px;
+    /* height: 30px; */
+    text-transform: capitalize;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerbookdeletebtn {
+    color: #d80303;
+    text-transform: capitalize;
+    margin-left: 12px;
+    background: transparent;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerbookdeletebtn:hover,
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerbookdeletebtn:focus
+    {
+        background: #ffdada
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerselectbtncls.buyerselectedbtncls {
+    background: #469041;
+    color: #ffffff;
+    border: transparent;
+}
+.buyerbookfooter.selectedcardcls p {
+    color: white;
+    font-weight: 500;
+}
+.buyerbookfooter.selectedcardcls {
+    background: #56af50;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerselectbtncls.buyerselectbordercls {
+    border: 1px solid #333;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.filterbutton {
+    background: #fbfbfb;
+    color: #555;
+    text-transform: capitalize;
+    border: 1px solid #d6d6d6;
+    margin-left: 12px;
+    /* padding: 0 19px; */
+    /* height: 37px; */
+}
+.filterformdiv.filterClose {
+   height: 0;
+   padding: 0;
+   opacity: 0;
+   margin: 0
+}
+.filterformdiv.filterOpen {
+    transition: all 0.5s ease;
+    height: 363px;
+    opacity: 1;
+}
+.filterFormstart .MuiFormControl-root.chipinputdiv.buychipfieldinputcls {
+    border-color: #e8e8e8;
+}
+.filterFormstart .MuiFormControl-root.chipinputdiv .MuiChip-deleteIcon{
+    width: 19px;
+    height: 19px;
+}
+.filterformdiv{
+    line-height: 37px;
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 0.5s;
+    transition-property: height;
+    transition-duration: 0.5s;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px
+}
+.filterClose .MuiFormControl-root.chipinputdiv.buychipfieldinputcls{
+    height: 0;
+    padding: 0;
+    display: none
+}
+.filterClose label.MuiFormLabel-root.MuiInputLabel-root.textinputlabel.MuiInputLabel-animated.MuiInputLabel-shrink{
+    font-size: 0
+}
+.filterClose p.labeltitle{
+    font-size: 0
+}
+.filterClose button{
+    height: 0 !important;
+    padding: 0 !important;
+    font-size: 0 !important
+}
+.filterClose .buynowinput .phonefieldinput input.textfieldclass{
+    height: 0;
+    padding: 0;
+    border: 0
+}
+/* .filterformdiv{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 13px
+} */
+.leftsideTopheader {
+    display: flex;
+    align-items: center;
+}
+.MuiFormControl-root.chipinputdiv>div::before, 
+.MuiFormControl-root.chipinputdiv>div::after{
+    display: none;
+}
+.addbuttonfooter button.MuiButton-text.buttonclass {
+    text-transform: capitalize;
+}
+.resturentdetailstabs .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary {
+    letter-spacing: 0;
+    min-width: 13%;
+    max-width: 31%;
+      text-transform: capitalize;
+      color: #8797ab;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      font-size: 87%;
+      border: 3px solid transparent;
+      /* padding: 6px 0; */
+      margin-left: 18px;
+  }
+  .resturentdetailstabs .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected {
+    background: #eee;
+    border: 1px solid #d8d5d5;
+    border-bottom: 0;
+    border-top: 3px solid #1d2229;
+    color: #1d2229;
+  }
+  .resturentdetailstabs .MuiTabs-indicator {
+    display: none;
+  }
+  .MuiTabs-root.resturentdetailstabs {
+    position: relative;
+  }
+  .MuiTabs-root.resturentdetailstabs::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: #d8d5d5;
+  }
+/* --Buyer book section css end-- */
+
+/* Contact us page section start */
+
+.contactsectionstart {
+    padding: 3em 2em;
+}
+.contactsectionstart .contactformstart{
+width: 85%
+}
+.contactinfosec {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.contactimagsec {
+    height: 20px;
+    width: 20px;
+    padding: 12px;
+    background-color: #1782ff38;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.contactimagsec img {
+    height: 100%;
+    width: auto;
+}
+.contactinfosec p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1d2229;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+.contactsectionstart button.MuiButton-root.buttonclass{
+    padding: 0 45px;
+    height: 45px;
+    margin-top: 12px;
+}
+/* Contact us page section end */
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn.messageagentbtn {
+    margin-left: 18px;
+    margin-top: 6px
+}
+.hideformobile{
+display: block !important
+}
+.hidefordesktop{
+    display: none !important
+}
+/* --filter popover design start --*/
+.filterdropdown .MuiPaper-root.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+    box-shadow: none;
+    
+    background: #393f46;
+    overflow: visible;
+    /* position: relative; */
+    margin-top: 10px;
+}
+.fliterpopover {
+    /* background: #111; */
+    padding: 14px 0;
+    color: #d8d4d4;
+    font-family: 'roboto';
+    /* margin-top: 10px; */
+    position: relative;
+}
+.fliterpopover::before {
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #393f46;
+    position: absolute;
+    top: -9px;
+    content: '';
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.popoverinner p {
+    margin: 0;
+    padding: 11px 27px;
+    border-bottom: 1px solid #75787b;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+p.activeflitercls {
+    background: #4d5763;
+    color: #fff;
+    transition: 0.2s;
+}
+p.activeflitercls:hover {
+    color: #fff !important;
+}
+
+.popoverinner p:hover {
+    color: #fff;
+}
+.popoverfooter {
+    display: flex;
+    align-items: center;
+    padding: 14px 14px 0;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.fliterinnerbtn {
+    text-transform: capitalize;
+    background: #495565;
+    color: #fbfbfb;
+    margin-left: 0;
+    border: none;
+    /* margin-left: 12px; */
+    padding: 0 16px;
+    height: 32px;
+    border-radius: 2px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.fliterinnerbtn.resetfilterbtn {
+    margin-left: 0;
+    background: transparent;
+    color: #fbfbfb;
+    border: none;
+}
+/* --filter popover design end --*/
+
+
+/* For Mobile Responsive start */
+@media screen and (min-width:320px) and (max-width:768px){
+
+    /* MarkeetingListSec Responsive start */
+   
+    .marketingtitlesearchbardiv {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .marketinglistSection button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.filterbutton {
+        margin-left: 0;
+    }
+   
+
+    .marketingtitlesec.hidden-md{
+        display: block;
+    }
+    .marketingtitlesec.trainingTitleArea {
+        padding: 20px 15px;
+    }
+    .trainingTitleArea .selectfieldinputstart {
+        width: 100%;
+    }
+    
+    
+    .marketingtitlesec{
+        padding: 20px 15px;
+        flex-direction: column;
+        align-items: unset;
+    }
+    .marketinglistSection hr.borderline {
+        margin-bottom: 6px;
+    }
+    .listtopheader .textfieldinput.serachfieldinputstart{
+        width: 100%;
+    }
+    .marketinglist {
+        padding: 1em 1em 2em;
+    }
+    .listtopheader{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .carddetaildialog .MuiDialog-paperWidthSm {
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn.messageagentbtn{
+        margin-left: 0;
+    }
+    .marketingtitlesec .listtopheader {
+        justify-content: flex-end;
+    }
+    .leftsideTopheader {
+        align-items: unset;
+    }
+    .fliterpopover::before {
+        /* right: unset;
+        left: 47px; */
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    /* .forMarketingSectionCls .buttoncomponent-start {
+        margin-right: 0;
+    } */
+    .listtopheader .buttoncomponent-start{
+        margin-right: 0;
+    }
+    /* MarkeetingListSec Responsive end */
+
+    /* Training Responsive Start */
+    .traningVideos {
+        padding: 1em 1em;
+    }
+    .leftsideTopheader{
+        justify-content: space-between;
+        margin: 0 0 20px;
+    }
+    .marketingtitlesec p {
+        font-size: 22px;
+        margin-right: 0;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .marketingtitlesec.trainingTitleArea {
+    justify-content: space-between;
+   }
+   h2.cardHeading{
+    /* width: 90%; */
+    word-break: break-word;
+   }
+    /* Training Responsive End */
+    /* reference & marketing start */
+    .marketinglist {
+        /* padding: 2em 10px; */
+        padding: 0.8em 10px;
+    }
+    .listcard{
+        border-radius: 0;
+        margin-bottom: 2px;
+    }
+    .MuiGrid-root.marketingcardstart{
+        flex-flow: row;
+    }
+    .listtopheader{
+        width: 100%;
+    }
+    .listtopheader{
+        justify-content: unset;
+    }
+    .referencelist .nodatafoundstart{
+        width: 96%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .companylist .nodatafoundstart{
+        width: 88%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .marketinglist .MuiBox-root {
+        padding: 20px 10px;
+    }
+    /* reference & marketing end */
+
+    /* User ListSection Responsive start */
+    .userListSectionStart .listtopheader .textfieldinput.serachfieldinputstart {
+        width: 100%;
+        margin-left: 0;
+    }
+    /* User ListSection Responsive end */
+
+    /* FAQ ListSection Responsive start */
+    /* .faqListSec .listtopheader .textfieldinput.serachfieldinputstart {
+        width: 55%;
+    } */
+    /* FAQ ListSection Responsive end */
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn{
+        padding: 0 12px;
+        font-size: 13px;
+    }
+   
+    .contactsectionstart {
+        padding: 1em 1em;
+    }
+    .contactsectionstart .contactformstart {
+        width: 100%;
+    }
+    .contactsectionstart button.MuiButton-root.buttonclass{
+        width: 100%;
+    }
+    /* --Buyer book section responsive start-- */
+    .resturentdetailstabs .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary {
+        min-width: 18%;
+        max-width: 35%;
+    }
+    .buyerlistsection .leftsideTopheader {
+        margin: 0 0 13px;
+    }
+    .buyerlistsection .listtopheader {
+        justify-content: flex-start !important;
+    }
+    .filterformdiv.filterOpen{
+       height: auto;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerbooknavigationbtn {
+       margin-left: 0;
+    }
+    /* .filterFormstart .addbuttonfooter {
+        padding-right: 15px;
+    } */
+    .hidefordesktop{
+        display: block !important
+    }
+    .hideformobile{
+        display: none !important
+    }
+    .msgagentdialg .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-rounded {
+        width: 100%;
+    }
+    .buyerlistsection button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn.messageagentbtn {
+        margin-top: 0;
+        margin-right: 12px;
+    }
+
+/* --Buyer book section responsive end-- */
+
+}
+/* For Mobile Responsive end */
+
+
+/* For iPhone 5/Se Responsive start */
+@media screen and (device-aspect-ratio: 40/71){
+    .marketingtitlesec p {
+        font-size: 20px;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerbooknavigationbtn{
+        padding: 0 8px;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn{
+        padding: 0 12px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .resturentdetailstabs .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary {
+        max-width: 37%;
+    }
+}
+/* For iPhone 5/Se Responsive end */
+
+
+/* For iPad Responsive start */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .visibleiPad {
+        display: block !important;
+    }
+    .hiddeniPad {
+        display: none !important;
+    }
+        
+    
+    ul.traningVideos li {
+        width: 349px;
+    }
+    .marketingtitlesec{
+        flex-direction: unset;
+        justify-content: space-between;
+        padding: 20px 28px;
+    }
+    .listtopheader{
+        width: 48%;
+        margin-bottom: 7px;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn{
+        margin-left: 15px;
+        /* margin: 0 15px; */
+    }
+    .marketinglistSection button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.filterbutton{
+        margin-left: 15px;
+    }
+    .marketingtitlesec p{
+        margin: 0;
+        /* width: 50%; */
+    }
+    .contactsectionstart button.MuiButton-root.buttonclass{
+        width: unset;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerbooknavigationbtn{
+        margin-left: 15px;
+    }
+    .leftsideTopheader{
+        margin-bottom: 0;
+    }
+    .hidefordesktop{
+        display: none !important
+    }
+    .hideformobile{
+        display: block !important
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn.messageagentbtn{
+        margin-left: 18px;
+    }
+    .buyerlistsection .marketingtitlesec {
+        justify-content: space-between;
+    }
+    .listtopheader{
+        width: 55%;
+    }
+}
+/* For iPad Responsive end */
+
+/* For iPad Pro Responsive start */
+@media screen and (min-width:1024px) and (max-width:1024px){
+    /* ul.traningVideos li {
+        width: 311px;
+    } */
+    h2.cardHeading{
+        width: 90%;
+        word-break: break-word;
+       }
+       .contactsectionstart{
+           padding-bottom: 45.7%;
+       }
+       button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.download-btn{
+           padding: 0;
+       }
+}
+
+/* For iPad Pro Responsive end */
+
+
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px) {
+    .marketinglist {
+        padding: 2em 1em;
+    }
+    .marketingtitlesec{
+        padding: 20px 16px;
+    }
+    hr.borderline{
+        width: 96%;
+    }
+    .bredcrumbsectionstart{
+        padding: 27px 16px;
+    }
+    .trainingVideoDetailSec .MuiPaper-root.MuiCard-root{
+        margin-bottom: 35%;
+       }
+       .unauthorizetraing {
+        padding: 2em 1em;
+    }
+    
+}
+
+
+
+
+/* For MacBook Responsive start */
+@media screen and (min-width:1440px){
+    ul.traningVideos li {
+        width: 310px;
+    }
+    ul.traningVideos.afterformopen li {
+        width: 298px;
+    }
+}
+
+/* For MacBook Responsive end */
+
+

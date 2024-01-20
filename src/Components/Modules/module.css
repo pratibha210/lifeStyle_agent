@@ -1,0 +1,314 @@
+/* 
+body {
+    overflow-y: auto !important;
+} */
+.startoftheinnersec .container-fluid{
+    padding: 0;
+}
+.bgcoloradjust{
+    background-color: #efefef
+}
+.startoftheinnersec .container-fluid .col-xs{
+    padding: 0
+}
+.startoftheinnersec .container-fluid .col-xs.moduleformsection{
+    padding: 0 8px
+}
+.startoftheinnersec .row{
+    margin: 0;
+    background-color: #f8f8f8;
+}
+.col-xs.moduleformsection {
+    max-width: 25%;
+    padding-right: 20px;
+    background-color: white;
+    padding-left: 15px;
+}
+.addformdialogdiv .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiPaper-elevation24.MuiPaper-rounded{
+    width: 700px;
+    max-width: 700px;
+    padding: 8px 0 25px;
+}
+
+/* Training module start */
+.addformtitle {
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 14px 14px;
+}
+.xtraclforvdosec .addformtitle {
+    position: sticky;
+    top: 0;
+    width: auto;
+    z-index: 99;
+    background: #fff;
+    padding: 12px 14px 14px;
+}
+.addformtitle p {
+    margin: 0;
+    color: #3d66b9;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'DM Serif Display', serif;
+}
+svg.closeimg {
+    cursor: pointer;
+    opacity: 0.5;
+}
+svg.closeimg:hover {
+    opacity: 1;
+}
+.xtraclforvdosec .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiPaper-elevation24.MuiPaper-rounded {
+    padding: 0;
+}
+/* Training module end */
+
+
+/* Manager conversation module css start */
+.managerconversationmodulestart .MuiGrid-spacing-xs-2{
+    width: 100%
+}
+.conversationdrawer .MuiDrawer-paperAnchorRight {
+
+    width: 100%;
+}
+.managerconversationmodulestart {
+    height: 100%;
+}
+/* Manager conversation module css end */
+/* ----Reset password success module css start--- */
+.successfullyreset-start p.signup-subtext {
+    padding-bottom: 45px;
+}
+.successfullyreset-start button.MuiButton-root.MuiButton-text.buttonclass.login-button {
+    width: 23%;
+    font-size: 16px;
+    height: 38px;
+
+}
+/* ----Reset password success module css end--- */
+/* ----- Verify Page css start ----- */
+.verifypagestart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.iner-verifypage {
+    width: 450px;
+    /* position: relative; */
+    /* height: 200px;
+    border: 1px solid #dfdfdf; */
+}
+.textchange {
+    position: relative;
+}
+
+.progress-bar {
+    height: 4px;
+    width: 100%;
+    background: #ffefde;
+    border-radius: 5px;
+    }
+    .textchange:before{
+        animation: 10s linear changetext;
+        content: 'Redirecting to login screen';
+        font-size: 19px;
+        font-weight: 500;
+        position: absolute;
+        /* margin: 0 auto; */
+        left: 0;
+        text-align: center;
+        right: 0;
+        top: -42px;
+        color: #000;
+    
+    }
+    @keyframes changetext {
+        0% {
+        content: "Fetching data";
+        }
+        50% {
+        content: "Verifying your account"; 
+        }
+        100% {
+        content: "Sucessfully Verified";
+        }
+        }
+    .loaded {
+    height: 100%;
+    width: 100%;
+    /* background: lightgray; */
+    background: #f9ad5a;
+    animation: 9s linear loading;
+    transform-origin: 0%;
+    border-radius: 8px;
+    }
+    .postloadedbar{
+        height: 100%;
+        width: 100%;
+        /* background: lightgray; */
+        background: #f9ad5a;
+        animation: 5s linear loading;
+        transform-origin: 0%;
+        border-radius: 8px;
+    }
+    .videopostloadedbar{
+        height: 100%;
+        width: 100%;
+        /* background: lightgray; */
+        background: #f9ad5a;
+        animation: 35s linear loading;
+        transform-origin: 0%;
+        border-radius: 8px;  
+    }
+    
+    @keyframes loading {
+    0% {
+    transform: scaleX(0);
+    content: "New text1";
+    }
+    50% {
+        transform: scaleX(50%);
+    content: "New text2"; 
+    }
+    100% {
+    transform: scaleX(100%);
+    content: "New text3";
+    }
+    }
+    
+.loaded {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    animation: myanimation 10s linear infinite loading;
+    transform-origin: 0%;
+        background: #f9ad5a;
+    animation: myanimation 10s infinite;
+}
+    
+@keyframes myanimation {
+    0% {background-color: red;}
+    25%{background-color:yellow;}
+    50%{background-color:green;}
+    75%{background-color:brown;}
+    100% {background-color: red;}
+  }
+
+/* ----- Verify Page css end ----- */
+
+/* FAQ Module css start */
+form.addFAQform {
+    overflow: hidden;
+    padding: 25px 25px 0;
+}
+.faqButnArea {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 12px;
+    padding-right:  25px ;
+    padding-left: 25px;
+}
+.addmanagerformstart .faqButnArea{
+    padding-left: 0;
+    padding-right: 0;
+} 
+.addQuestionFormStart .faqButnArea{
+    padding-left: 0;
+    padding-right: 0;
+} 
+.xtraclforvdosec .faqButnArea{
+    position: sticky;
+    bottom: 0;
+    width: auto;
+    background: #fff;
+    padding: 12px 25px 18px;
+    border-top: 1px solid #eee;
+    z-index: 99;
+}
+button.MuiButton-root.buttonclass.faqCancelButn {
+    margin-right: 10px;
+    background: transparent;
+    color: #717171;
+}
+/* FAQ Module css end */
+
+/* TrainingDetail Module css start */
+.triningDetailStart {
+    /* padding: 1em 3em; */
+    padding: 2em 3em 3em;
+    background: #eee;
+}
+.previousnextbtndiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.previousbtn {
+    background: #dedede;
+    text-transform: capitalize;
+    color: #424242;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.nextbtn {
+    text-transform: capitalize;
+    /* background: #2a323c; */
+}
+
+
+/* TrainingDetail Module css end */
+/* --faq css start module--- */
+.faqmodulestart {
+    /* background: #f2f2f2; */
+}
+/* --faq css end module--- */
+
+
+/* For mobile Responsive start */
+
+@media screen and (min-width:320px) and (max-width:768px){
+.successfullyreset-start button.MuiButton-root.MuiButton-text.buttonclass.login-button {
+    width: 100%;
+}
+.addformdialogdiv .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiPaper-elevation24.MuiPaper-rounded{
+    min-width: 100%;
+    min-height: 100%;
+}
+.addformtitle {
+    padding-top: 17px;
+}
+.triningDetailStart {
+    padding: 18px 0 3px;
+}
+.previousnextbtndiv{
+    margin-left: 1em;
+    margin-right: 1em
+}
+.faqButnArea{
+    padding-right: 0 ;
+}
+.xtraclforvdosec .faqButnArea{
+    padding-right: 0 ;
+}
+}
+/* For mobile Responsive end */
+
+/* For iPhone 5/Se Responsive start */
+@media screen and (device-aspect-ratio: 40/71){
+    .triningDetailStart {
+        padding: 12px 0 3px;
+    }
+
+}
+/* For iPhone 5/Se Responsive end */
+
+/* @media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px){
+
+} */
+
+

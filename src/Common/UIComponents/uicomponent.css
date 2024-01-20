@@ -1,0 +1,2334 @@
+/* Conversation card css start  */
+
+.conversationcardstart {
+    display: flex;
+    align-items: center;
+    padding: 14px 12px 14px 0;
+    position: relative;
+    cursor: pointer;
+}
+.conversationcardstart:before {
+     /* content: '';  */
+    height: 1.5px;
+    width: 95%;
+    position: absolute;
+    background-color: #e4e4e4;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+.conversationcardstart .sb-avatar.sb-avatar--text {
+    width: 60px !important;
+    height: auto !important;
+}
+.conversationcardstart .sb-avatar__text {
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.conversationcardstart .sb-avatar__text span {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+
+.coversationfirstline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2px
+}
+.coversationfirstline p {
+    margin: 0;
+    font-size: 16px;
+    color: #2b2b2b;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    width: 190px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 5px;
+}
+.coversationfirstline span {
+    font-size: 12px;
+    color: #848484;
+    font-weight: 400;
+}
+
+.coversationsecondline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coversationsecondline p {
+    margin: 0;
+    width: 210px;
+    font-family: 'Roboto',sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 13px;
+    color: #5f5e5e;
+    font-weight: 400;
+    margin-right: 6px;
+}
+p.messagenumber {
+    width: 20px !important;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    margin: 0;
+    font-size: 12px;
+}
+.conversationcardstart:last-child::before{
+    display: none
+}
+.onlineindication {
+    position: absolute;
+    background-color: #54d389;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: -5px;
+    right: 3px;
+}
+.avatarsection {
+    position: relative;
+}
+.conversationcardstart:hover{
+    background-color: #ececec;
+    color: white;
+}
+.conversationactive {
+    background: linear-gradient(#3e67bb, #395faf 50%);
+    color: white;
+}
+.conversationcardstart:hover::before{
+    display: none
+}
+.conversationactive:before{
+    display: none
+}
+
+.conversationactive .coversationfirstline p,
+.conversationactive .coversationsecondline p,.conversationactive .coversationfirstline span{
+    color: white
+}
+
+.conversationactive p.messagenumber{
+    background-color: #00236b;
+}
+/* Conversation card css end */
+
+ /* Marketing referencs card css start  */
+ .pfimagediv.marketcardimg span.MuiSkeleton-root.MuiSkeleton-text {
+    height: 105px;
+    width: 95px;
+    transform: unset;
+}
+ p.uploadeddate.cardcategory span{
+    color: #424242;
+ }
+.listcard{
+    background: #fff; 
+    border-radius: 2px;
+    position: relative;
+    margin-bottom: 9px;
+     /* padding: 13px 22px; */
+    /* border-bottom: 1px solid #d8d5d5;
+    padding-bottom: 16px; */
+    /* margin-bottom: 25px;  */
+}
+.pfimagediv img.cardimage {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    object-fit: contain;
+}
+p.cardtitle {
+    font-size: 17px;
+    margin: 0;
+    color: #424242;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.marketinginfo p.carddesc {
+    margin-bottom: 0;
+    width: 90%;
+    font-size: 13px;
+    line-height: 18px;
+    color: #464545;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    /* height: 56px; */
+     /* margin: 0 auto; */
+    margin-top: 10px;
+}
+
+span.morebtnspan {
+    position: absolute;
+    right: 3%;
+    top: 128px;
+    color: #2d74f3;
+    font-size: 13px;
+    cursor: pointer;
+     /* background: #d6d5d5;  */
+    padding: 1px 10px;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+span.morebtnspan.lessbtn {
+    position: unset;
+    margin-left: 10px;
+    padding: 4px 10px;
+}
+hr.borderline {
+    width: 95%;
+    margin: 0 auto;
+    border: none;
+    /* border-top: 1px solid #eee;  */
+    height: 1px;
+    background: #d8d5d5;
+}
+.MuiGrid-root.marketinginfo.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-10 {
+    padding: 8px 20px;
+}
+.pfimagediv {
+    padding: 0 0px 0;
+    height: 105px;
+    width: 100%;
+}
+.moreactionmenu {
+    position: absolute;
+    top: 6px;
+    cursor: pointer;
+    right: 2px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.moreactionmenu:hover{
+    background-color: #eeeeee;
+    opacity: 0.9;
+}
+img.moremenuicon {
+    height: 14px;
+    width: 14px;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.expandbtnarea {
+     /* display: flex;  */
+    width: 100%;
+}
+.MuiGrid-root.marketinginfo {
+    padding: 8px 18px;
+}
+.readmorearea span.MuiIconButton-label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.download-btn {
+    margin-top: 0;
+    text-transform: capitalize;
+    background: transparent;
+    color: #3c63b5;
+    border: none;
+    opacity: 0.9;
+    height:30px ;
+font-size: 13px;
+font-weight: 400;
+padding: 0 6px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.download-btn.detailbtn{
+border: none;
+height:30px ;
+font-size: 13px;
+font-weight: 400;
+background: transparent;
+padding: 0;
+color: #000;
+padding: 0 6px;
+}
+.marketreferviewbtnGrid{
+    text-align: right;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.download-btn:hover {
+    opacity: 1;
+}
+.download-btn img.buttonimage {
+    height: auto;
+    width: 11px;
+    margin-right: 6px;
+}
+p.expanddetail {
+    font-size: 14px;
+    color: #abafb8;
+}
+.collapsecntnt {
+    padding: 14px 27px;
+}
+.readmorearea {
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+}
+.cardfooterdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    border-top: 1px solid #eeeeee;
+}
+p.uploadeddate {
+    margin: 0;
+    font-size: 12px;
+    margin-top: 6px;
+    color: #948d8d;
+}
+.footerbtngroup{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.addmaketing-btn {
+    text-transform: capitalize;
+}
+
+.marketcardimg{
+    background-image: url('../../Images/placeholder.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #fff;
+    border:1px solid #dedede;
+    border-radius: 3%;
+    margin-bottom: 9px;
+}
+ /* Marketing Reference card css end  */
+
+ /* No data found css start  */
+.nodatafoundstart {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    height: 300px;
+    flex-direction: column;
+}
+img.nodataimg {
+    width: 100px;
+    height: auto;
+}
+p.nodatatext {
+    margin: 0;
+    font-size: 17px;
+    color: #737272;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+ /* No data found css end  */
+
+/* ButtonComponent css start  */
+button.MuiButton-root.disabledclass{
+    pointer-events: none;
+    opacity: 0.3;
+
+}
+
+button.MuiButton-root.buttonclass {
+    background: rgb(37, 111, 243);
+     /* background: transparent linear-gradient(120deg, #4facfe 0%, #00f2fe 100%) 0% 0% no-repeat padding-box;    text-transform: capitalize;  */
+    background: linear-gradient(#3e67bb, #395faf 50%);
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    height: 38px;
+    padding: 0 18px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+button.MuiButton-root.buttonclass:hover {
+     /* background: linear-gradient(120deg, #4facfe 0%, #00f2fe 100%);  */
+    opacity: 0.8;
+}
+img.buttonimage {
+    width: 15px;
+    height: auto;
+    margin-right: 6px;
+}
+/* ButtonComponent css end  */
+
+ /* Breadcrumb section css start  */
+.bredcrumbsectionstart {
+    width: auto;
+    height: 100%;
+    padding: 27px 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+   background:  linear-gradient( to left, rgba(46, 113, 236, 0.61) 22%, rgba(26,27,31,1) 100%, rgba(248,162,54,1) 100%, rgba(80,119,225,1) 100%),url('../../Images/agentbg.jpg');
+}
+.breadcrumbtitle p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+p.breadcrumbtitle {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* ---Error component css start---  */
+.error-componentstart {
+    background-color: #ef72a112;
+    display: inline-block;
+    padding: 5px 25px;
+    border-left: 3px solid #f00;
+    position: absolute;
+    top: -36px;
+}
+.error-componentstart p {
+    margin: 0;
+    color: #f00;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ---Error component css end---  */
+/* --usercard css start-- */
+.togglebtn.togglbtn-extracls {
+    display: flex;
+    justify-content: flex-end;
+}
+/* --usercard css end-- */
+/* ManagerList css start */
+.MuiGrid-root.managerleft-card.MuiGrid-item {
+    padding: 20px 28px;
+}
+.managerlistsectionstart {
+    background: #eee;
+}
+.managerheadingsec:after {
+    content: '';
+    position: absolute;
+    width: 89%;
+    background: #d4d3d3;
+    top: 239px;
+    height: 1px;
+    left: 66px;
+    /* margin: 0 auto; */
+}
+.managerheadingsec {
+    display: flex;
+    padding: 3em 4em 2em;
+    align-items: center;
+}
+.managerheadingsec p {
+    color: #3a60b1;
+    margin-right: 30px;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+}
+.managerlistsec {
+    display: flex;
+    padding: 0 3em 2em;
+    justify-content: space-between;
+}
+img.managerimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.userprofileimage{
+    width: 75px;
+    height: 75px;  
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    left: 19px;
+}
+.dpimagediv {
+    width: 100%;
+    height: 100%;
+    background: #e8e7e7;
+}
+
+p.managertitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: #101010;
+}
+p.managerdesc {
+    font-size: 14px;
+    color: #484848;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 4px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.managerdesc span {
+    margin-right: 9px;
+    font-weight: 500;
+}
+.rightcarddetail p.managerdesc {
+    color: #929292;
+}
+.cardinfodiv {
+    display: flex;
+}
+p.manageraddress{
+margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #3a61b3;
+}
+.address p.managerdesc:nth-child(1) {
+    margin-top: 35px;
+}
+.dpimagediv .sb-avatar__text {
+    border-radius: 4px;
+}
+.moreactionmenu:hover {
+    background: #eee;
+    border-radius: 50%;
+}
+.leftcarddetail p.managerdesc:nth-child(1) {
+    margin-top: 15px;
+}
+ p.managerdesc:nth-child(1) {
+    margin-top: 23px;
+}
+p.managerdesc.managerEmail{
+    margin-top: 6px;
+}
+.labelimg{
+    width: 11px;
+    height: 11px;
+}
+.managercardstart:before {
+    position: absolute;
+    content: '';
+    background: #e0e0e0;
+    height: 100%;
+    width: 1px;
+    right: 3px;
+    top: 0;
+}
+.managercardstart{
+    position: relative;
+}
+.managerlistcard {
+    background: #fff;
+    margin-bottom: 8px;
+    /* padding: 10px; */
+    border-radius: 3px;
+    position: relative;
+    /* min-height: 305px; */
+}
+.usermanagercardheader {
+    border-bottom: 1px solid #eae8e8;
+    padding: 0 20px;
+    position: relative;
+    margin-bottom: 40px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.usereditbtn {
+    background: #f3f3f3;
+    color: #301e3c;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-right: 21px;
+    /* border: 1px solid #e6e6e6; */
+    padding: 0 0;
+    height: 27px;
+}
+.userbuttonsdiv {
+    display: flex;
+    align-items: center;
+}
+.usereditbtn img.buttonimage {
+    width: 11px;
+    height: auto;
+    margin-right: 6px;
+}
+/* ManagerList css end */
+/* ---marketing details css start--- */
+.mangerimg-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    object-fit: contain;
+    background: #eee;
+}
+img.mangerimg-card.docfilesimg {
+    object-fit: scale-down;
+    background-color: transparent;
+    object-position: center;
+    /* border-right: 1px solid #f1f1f1; */
+    border-radius: 0;
+    width: 40%;
+    height: 40%;
+}
+.managerdeatilsimgdiv {
+    padding: 0 0px 0;
+    height: 350px;
+    width: 100%;
+    background-image: url('../../Images/placeholder.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #eeeeee54;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.deatilheadersec {
+    /* display: flex;
+    align-items: center; */
+    position: sticky;
+    top: 25px;
+    left: 0;
+    text-align: center;
+}
+.carddetaildialog svg.MuiSvgIcon-root.closeimg {
+    position: absolute;
+    right: -13px;
+    top: -15px;
+    font-size: 19px;
+}
+.marketingdetailcardstart {
+    padding: 25px 25px 25px;
+}
+p.closeArea {
+    position: relative;
+    margin: 0 0 10px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.download-btn.marketingdeatilsbtn {
+    background: linear-gradient(#3e67bb, #395faf 100%);
+    color: #fff;
+    font-size: 14px;
+    padding: 0 14px;
+}
+.buttoncomponent-start.downloadbtnextracls {
+    position: absolute;
+    bottom: 21px;
+    right: 7px;
+}
+p.detailtitletext {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px 0;
+}
+/* .deatilheadersec .buttoncomponent-start {
+    margin-left: 14px;
+} */
+
+p.detailtitledesc {
+    margin: 0;
+    font-size: 15px;
+    line-height: 23px;
+    font-family: 'Roboto',sans-serif
+}
+
+
+/* ---marketing details css end--- */
+
+ /* ---Card component css start---  */
+ .videoimagediv {
+    background-color: #fff;
+    background-image: url('../../Images/videoplaceholder.png'); 
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    position: relative;
+}
+.actionsicondiv .actionicon:first-child {
+    margin-bottom: 7px;
+}
+.actionicon img {
+    width: 12px;
+    height: auto;
+}
+h2.categoryname {
+    color: #1d2229;
+    font-weight: 500;
+}
+.actionicon {
+    background: #0404048a;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 16px;
+    height: auto;
+}
+.actionsicondiv {
+    position: absolute;
+    top: 10px;
+    z-index: 98;
+    right: 9px;
+}
+.cardComponent:hover .actionsicondiv{
+    display:block;
+}
+.actionsicondiv{
+    display: none;
+}
+.actionicon:hover .edithovertxt{
+    display: block;
+   
+}
+.actionicon:hover .edithovertxt{
+
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-4-10 11:49:11
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes edithovertxt {
+    0% {
+        -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  @keyframes edithovertxt {
+    0% {
+        -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    
+  
+.actionicon:hover .dlthovertxt{
+    display: block;
+}
+.edithovertxt {
+    display: none;
+    z-index: 99999;
+    position: absolute;
+    left: -45px;
+    top: 0;
+    background: #0404048a;
+    color: #fff;
+    padding: 4px 13px;
+    border-radius: 3px;
+   
+}
+
+
+@-webkit-keyframes edithovertxt {
+    100% { left: 0; }
+}
+
+@keyframes edithovertxt {
+    100% { left: 0; }
+}
+.dlthovertxt {
+    display: none;
+    z-index: 99999;
+    position: absolute;
+    left: -55px;
+    top: 29px;
+    background: #0404048a;
+    color: #fff;
+    padding: 4px 13px;
+    border-radius: 3px;
+}
+.dlthovertxt p {
+    margin: 0;
+    font-size: 12px;
+   
+}
+.edithovertxt p {
+    margin: 0;
+    font-size: 12px;
+   
+}
+h2.categoryname {
+    color: #1d2229;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+}
+.cardComponent:hover .actionsicondiv {
+    display: block;
+}
+.cardComponent:hover .videoOverlayonview {
+    display: none;
+}
+.viewmorebtnarea button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.viewallvdo-btn {
+    background: #dcdcdc;
+    color: #353535;
+    font-size: 13px;
+    height: 30px;
+    text-transform: UPPERCASE;
+    font-weight: 500;
+}
+.categorysection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.traningVideos .categorysection{
+    margin: 20px 0;
+}
+p.edithovertxt {
+    margin: 0;
+    font-size: 12px;
+    display: none;
+}
+.MuiPaper-root.MuiCard-root.trainingCard {
+    box-shadow: none;
+    background: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom:30px;
+    position: relative;
+}
+span.cardType {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    /* color: #6d6865; */
+    /* background: #fdefdb; */
+    /* border: 1px solid #ffdaa6; */
+    padding-right: 13px;
+    position: relative;
+}
+span.cardType::before {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    content: '';
+    right: 3px;
+    top: 0;
+    bottom: 0;
+    background: #6c7084;
+    margin: auto;
+}
+h2.cardHeading {
+    font-family: 'Lato';
+    font-size: 15px;
+    color: #030303;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p.cardDetail {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    line-height: 22px;
+    color: #606060;
+    font-weight: 500;
+    margin:0;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+}
+.attachmentfilesec {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+p.attachtitle {
+    margin: 3px 0 0 18px;
+    font-size: 14px;
+    color: #606060;
+    font-family: 'Lato';
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.attachmentfilesec span {
+    margin: 3px 0 0 6px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    color: #606060;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 65%;
+    
+}
+p.moretext {
+    margin: 0px 0 0;
+    font-size: 13px;
+font-weight: 400;
+color: #000000;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    right: 0;
+    bottom:3px;
+    z-index: 999;
+    cursor: pointer;
+}
+p.cardDate {
+    font-size: 13px;
+    color: #606060;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.attachicondiv {
+    width: 14px;
+    height: 14px;
+    /* background: #e4e4e4; */
+    border-radius: 50%;
+    padding: 7px 7px 7px 0;
+}
+.attachicondiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .attachmentfilesec span:before{
+    content: '';
+    position: absolute;
+    background: url('../../Images/multimedia-option.png');
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    bottom: 3%;
+} */
+p.cardDate.cardTime {
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+.popovercntnt p{
+    /* margin: 0 0 5px; */
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    padding: 6px 14px ;
+}
+.popovercntnt p:hover{
+    background: #474a4c;
+}
+.popovercntnt{
+    display: none;
+    padding: 12px 0;
+    position: absolute;
+    background: #000;
+    min-width: 60%;
+    top: 113px;
+    right: 0;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 50%;
+}
+.popovercntnt:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000;
+    right: 21px;
+    bottom: -10px;
+}
+.morehoverdiv:hover .popovercntnt{
+    display: block;
+}
+.cardTime svg.MuiSvgIcon-root {
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.MuiCardMedia-root.cardMediaCls img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: cover;
+    background-color: #fff;
+}
+.MuiCardMedia-root.cardMediaCls {
+    width: 100%;
+    height: 135px;
+    /* height: 100%; */
+    position: relative;
+}
+.videoOverlay {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000a6;
+    display: none;
+    /* box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s; */
+}
+
+.cardComponent:hover .videoOverlay{
+    display: block;
+    /* box-shadow: inset 0 100px 0 0 #D80286; */
+}
+.videoOverlay span {
+    width: 40px;
+    height: 40px;
+    background: #ffffff40;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 49px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+.videoOverlay svg.MuiSvgIcon-root {
+    color: #fff;
+    font-size: 28px;
+}
+.cardComponent {
+    position: relative;
+}
+.cardComponent .MuiCardContent-root {
+    padding: 0 !important;
+}
+.menuIconArea {
+    position: absolute;
+    top: 5px;
+    z-index: 9;
+    right: 0;
+}
+.menuIconArea svg.MuiSvgIcon-root {
+    font-size: 20px;
+    /* color: #585858; */
+    color: #5f5f5f;
+}
+.menuIconArea {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: transparent;
+    right: 3px;
+    top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.menuIconArea:hover{
+    background: #00000026;
+    transition: 0.5s;
+}
+span.tranningtags {
+    padding: 0 5px;
+    font-size: 12px;
+    color: #fff;
+    /* text-transform: uppercase; */
+    border-radius: 2px;
+    /* margin-left: 5px; */
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+}
+span.queuedtag {
+    background-color: #ecae00;
+}
+span.tranningtags.processingtag {
+    background: #0000b7;
+}
+span.tranningtags.processedtag {
+    background: #008200;
+}
+/* --Card component css end---  */
+
+/* Training all videos css start */
+
+.selectfieldinputstart {
+    margin-right: 15px;
+}
+.selectfieldinputstart .css-1wa3eu0-placeholder {
+    font-size: 14px;
+}
+.selectfieldinputstart .css-1uccc91-singleValue {
+    font-size: 14px;
+    color: #7f7c7c;
+}
+.selectfieldinputstart .css-yk16xz-control .css-26l3qy-menu option{
+    font-size: 14px;
+}
+
+/* Training all videos css end */
+
+/* Training card skeleton start */
+.trainingsection .MuiCardContent-root {
+    padding: 0;
+}
+.traningskeleton span.MuiSkeleton-root.MuiSkeleton-text.videoskeleton.MuiSkeleton-pulse {
+    transform: none;
+    transform-origin: unset;
+    width: 100%;
+    height: 100%;
+}
+.traningskeleton .videoimagediv {
+    background: unset;
+}
+.traningskeleton .cardFooter {
+    bottom:16px;
+}
+
+/* Training card skeleton end */
+/* ---Buyer books card start--- */
+.locationrow {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 8px; */
+    padding: 7px 0;
+}
+.locationrow img {
+    height: 16px;
+    width: auto;
+    margin-right: 8px;
+}
+.locationuser {
+    display: flex;
+    align-items: center;
+    /* margin-left: 6px; */
+}
+.locationuser img {
+    height: 13px;
+    width: auto;
+    margin-right: 4px;
+    opacity: 0.5;
+}
+
+.locationrow p {
+    font-size:13px !important;
+    font-weight: 500;
+    color: #353535 !important;
+    margin: 0;
+}
+
+.editoption {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    top: 0;
+    /* background-color: #385faf; */
+    padding: 7px 10px;
+    border-radius: 0 0 0 4px;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #efefef;
+    /* box-shadow: 0px 2px 11px #00000008; */
+    cursor: pointer;
+}
+.editoption:hover{
+    box-shadow:0px 2px 11px #00000014;
+}
+.editoption img {
+    height: 16px;
+    width: 16px;
+    /* margin-right: 9px; */
+}
+.editoption p {
+    margin: 0;
+    font-size: 13px;
+    /* color: white; */
+}
+.buyercardinner:first-child {
+    border-right: 1px solid #eee;
+}
+.buyercardfirstsec {
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+.buyercardinner {
+    /* width: 50%;
+    text-align: center;
+    padding: 12px; */
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.buyercardinner p span {
+    color: #333333;
+    font-size: 12px;
+    margin-left: 10px;
+    /* vertical-align: bottom; */
+}
+.facilities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.85;
+}
+.buyercardfirstsec:last-child {
+    border-bottom: none;
+}
+.buyerCard .MuiCardContent-root {
+    padding: 0 15px 15px;
+    position: relative;
+}
+.cardComponent .MuiCardContent-root{
+    padding: 0;
+}
+
+.MuiPaper-root.MuiCard-root.buyerCard {
+    background: #fff;
+    box-shadow: none;
+}
+img.buyercardimg {
+    width: 14px;
+    height: auto;
+    margin-right: 9px;
+    vertical-align: bottom;
+}
+.buyercardimg.bedimg,.buyercardimg.bathimg {
+    width: 18px;
+}
+.buyercardinner p {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #4CAF50;
+    font-weight: 400;
+}
+.bathtext{
+    margin-top: 3px;
+}
+.price.subprice{
+    margin-bottom: 0;
+}
+.buyercardinner p.price::first-letter{
+    font-size: 14px;
+    vertical-align: text-top;
+}
+p.buyercounthead {
+    font-size: 22px;
+    font-weight: 400;
+    color: #484a4c;
+    position: relative
+}
+img.minimumsign {
+    width: 10px;
+    margin-right: 8px;
+    position: absolute;
+    left: -18px;
+    top: 1px;
+}
+img.maximumsign {
+    width: 10px;
+    /* vertical-align: text-bottom; */
+    margin-left: 8px;
+    position: absolute;
+    right: -18px;
+    bottom: 2px;
+}
+.buyerbookfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #dadada;
+}
+.buyerbookfooter p {
+    margin: 0;
+    font-family: 'roboto';
+    color: #222;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.buyercardinner span{
+    color: #8a8a8a;
+    font-size: 15px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.buyerselectbtncls {
+    background: transparent;
+    color: #333;
+    text-transform: capitalize;
+    border: transparent;
+    padding: 0 17px;
+    height: 30px;
+}
+
+/* Manager List card skeleton start */
+.skeletonxtracls .dpimagediv {
+    background: none;
+    padding-top: 20px;
+}
+.skeletonxtracls .dpimagediv .MuiSkeleton-text {
+    margin: 0 24px;
+}
+/* Manager List card skeleton end */
+
+ /* ---Preloader css start---  */
+#preloader {  
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  @keyframes preloader {
+    0% { left: -100px }
+    100% { left: 110%; }
+  }
+  #preloader-box {
+    width: 200px;
+    height: auto;
+    /* / position: absolute; / */
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    }
+  
+  .preloadericon {
+    width: 100%;
+    height: 100%;
+  }
+  .field.homecontactinput{
+    margin: 0 ;
+  }
+  .preloader_overlay {
+    background-color: #1e2229;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    transition: all .1s ease-in-out;
+    overflow: hidden;
+  
+  }
+  .homepage_overlay {
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+  }
+  @-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+  }
+  .preloader-loading {
+    background-color: #cecece;
+    height: 6px;
+    overflow: hidden;
+    position: relative;
+    width: 14em;
+    border-radius: 5px
+  }
+  .preloader-extracls{
+    z-index: 9999999;
+  }
+  
+  .preloading-bar {
+    animation: side2side 2s ease-in-out infinite;
+    background: transparent linear-gradient(90deg, #2E74F3 0%, #719BFE 100%) 0% 0% no-repeat padding-box;
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    border-radius: 5px
+  }
+  
+  .preloader-center {
+    left: 2px;
+    margin: 20px auto 0;
+    /* position: absolute; */
+    top: 65px;
+    right: 0;
+  }
+  
+  @keyframes side2side {
+    0%, 100% { transform: translateX(-50%); }
+    50%      { transform: translateX(150%); }
+  }
+  
+
+  
+ /* ---Preloader css end----  */
+
+ /* Manager list skeleton start*/
+ .dpimagediv .MuiSkeleton-text {
+    transform: unset;
+    background: #e6e6e6;
+    border-radius: 8px;
+    width: 120px !important;
+    height: 120px !important;
+    margin: auto;
+}
+/* Manager list skelton end */
+
+/* Pagination css start */
+.paginationsectionstart {
+    padding: 20px 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+.paginationsectionstart .MuiPaginationItem-page.Mui-selected:hover, .MuiPaginationItem-page.Mui-selected.Mui-focusVisible {
+    background-color: rgb(56, 95, 175) !important;
+    color: white;
+    border-color: rgb(56, 95, 175);
+}
+.MuiPaginationItem-page.Mui-selected {
+    background-color: rgb(56, 95, 175) !important;
+    color: white;
+    border-color: rgb(56, 95, 175);
+}
+/* Pagination css end */
+
+/* ConversationCardSkeleton responsive start */
+.sendmessagecls {
+    justify-content: flex-end;
+}
+.avatarskeleton {
+    width: 60px;
+    height: auto;
+}
+.avatarskeleton .MuiSkeleton-text {
+    transform: unset;
+    background: #e6e6e6;
+    border-radius: 8px;
+    width: 40px !important;
+    height: 40px !important;
+    margin: auto;
+}
+.firstlineSkeleton span.MuiSkeleton-root.MuiSkeleton-text.MuiSkeleton-pulse {
+    width: 100px !important;
+    transform: unset;
+    margin-bottom: 2px;
+    height: 13px !important;
+    background: #e6e6e6;
+}
+.secondlineSkeleton span.MuiSkeleton-root.MuiSkeleton-text.MuiSkeleton-pulse {
+    width: 205px !important;
+    background: #e6e6e6;
+}
+/* ConversationCardSkeleton responsive end  */
+
+ /* ConversationMessageSkeleton responsive start  */
+
+.messageSkeleton.messagesection {
+    width: 100%;
+}
+ /* ConversationMessageSkeleton responsive end */
+
+/* ---company Card css start--- */
+.MuiPaper-root.MuiCard-root.CompanystoreCard {
+    box-shadow: none;
+    background: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+p.company-cardType {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    bottom: 55%;
+    background: #FF9800;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-family: 'Lato' ,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2.company-cardHeading {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    -webkit-box-orient: vertical;
+    display: -webkit-box!important;
+    -webkit-line-clamp: 2!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+}
+.companycard-MediaCls {
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.MuiCardMedia-root.companycard-MediaCls img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    object-fit: cover;
+}
+.company-deatail {
+    font-family: 'Lato', sans-serif;
+    line-height: 22px;
+    color: #77778b;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.comapnycard-innerdiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* NotifiedMessageComponent css start */
+
+.notifiactionmessage-component .MuiAlert-root {
+    /* padding: 4px 20px; */
+    font-weight: 500;
+    font-size: 14px;
+}
+.notifiactionmessage-component .MuiAlert-root.MuiAlert-filledError {
+    background: #2a323c;
+    color: #ff493c;
+}
+.notifiactionmessage-component .MuiAlert-root.MuiAlert-filledSuccess {
+    background: #2a323c;
+    color: #84c75d;
+}
+.notifiactionmessage-component .MuiAlert-root.MuiAlert-filledWarning {
+    background: #2a323c;
+    color: #f7a630;
+}
+.notifiactionmessage-component .MuiAlert-root.MuiAlert-filledInfo {
+    background: #2a323c;
+    color: #46a9f9;
+}
+.notifiactionmessage-component .MuiAlert-action svg.MuiSvgIcon-fontSizeSmall {
+    font-size: 18px;
+}
+.notifiactionmessage-component .downloadsnackbar {
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #3c64b7;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.MuiCircularProgress-root.snackbarprogrs.MuiCircularProgress-colorPrimary.MuiCircularProgress-indeterminate {
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 15px;
+    color: #3c64b7;
+}
+/* NotifiedMessageComponent css end */
+
+/* AlertComponent css start */
+.alert-dialog-title h2.MuiTypography-root {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deleteimgdiv {
+    width: 14px;
+    height: 14px;
+    /* background: #f1f1f1; */
+    background: #e0444422;
+    padding: 9px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.deleteimgdiv img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+svg.MuiSvgIcon-root.closeIcon {
+    width: 20px;
+    height: 20px;
+    background: #ff000000;
+    padding: 3px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: #6d6d6d;
+    cursor: pointer;
+}
+svg.MuiSvgIcon-root.closeIcon:hover{
+    background: #e9e9e9;
+    transition: 0.5s;
+}
+.alertTilteIcon {
+    display: flex;
+    align-items: center;
+}
+.alertTilteIcon p {
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 19px;
+    color: #444;
+}
+.MuiDialog-root.alertDialog .MuiDialog-paperWidthSm {
+    max-width: 360px;
+    border-radius: 5px;
+    min-width: 360px
+}
+.MuiDialog-root.alertDialog .MuiDialogTitle-root.alert-dialog-title {
+    padding: 10px 20px;
+}
+.MuiDialogContent-root.dialogContentCls {
+    padding: 5px 20px;
+}
+.MuiDialog-root.alertDialog .MuiDialogActions-root {
+    padding: 10px 20px;
+    background: #eaedf4a8;
+}
+.MuiDialogContent-root.dialogContentCls .MuiTypography-root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #717171;
+    font-weight: 400;
+    /* margin: 0; */
+}
+.MuiDialog-root.alertDialog .MuiDialogActions-root button.MuiButton-root.buttonclass{
+    text-transform: capitalize;
+    height: 34px;
+}
+button.MuiButton-root.buttonclass.alertCancelButn {
+    background: transparent;
+    border: none;
+    color: #7d7d7d;
+}
+button.MuiButton-root.buttonclass.alertDeleteButn {
+    background: rgb(224, 68, 68);
+}
+/* button.MuiButton-root.buttonclass.alertCancelButn {
+    background: transparent;
+    border: 1px solid #3b63b5;
+    margin-right: 5px;
+    color: #3c64b6;
+} */
+
+/* AlertComponent css end */
+
+/* Preview modal css start */
+.previewimagedivstart {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #000000e0;
+    z-index: 999;
+    padding: 16px 0;
+}
+.previewimagedivstart .image-gallery-slide .image-gallery-image {
+    object-fit: cover;
+    width: 70%;
+    height: 100%;
+}
+svg.MuiSvgIcon-root.slidercloseicon {
+    color: #dedede;
+    padding: 3px;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    z-index: 9;
+}
+svg.MuiSvgIcon-root.downalodbtn {
+    font-size: 29px;
+    padding: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #dedede;
+    position: absolute;
+    right: 5%;
+    top: 3px;
+}
+.sliderrightsidebtns {
+    position: absolute;
+    right: 1%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+.sliderrightsidebtns svg.MuiSvgIcon-root:hover {
+    color: #fff;
+}
+.previewimagedivstart .image-gallery-icon {
+    color: #d8d8d8;
+}
+.previewimagedivstart .image-gallery-left-nav .image-gallery-svg,.previewimagedivstart .image-gallery-right-nav .image-gallery-svg {
+    height: 90px;
+    width: 55px;
+}
+.previewimagedivstart .image-gallery-thumbnail {
+    width: 100px;
+    height: 63px;
+}
+.preimagedivstart{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.thumbnaildiv{
+    width: 95px;
+    height: 50px;
+}
+.thumbnailpreviewimgcls{
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+img.previewimgcls {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.MuiCircularProgress-root.loadinginslider.MuiCircularProgress-colorPrimary.MuiCircularProgress-indeterminate {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #3c63b6;
+}
+.previewimgerror {
+    background: #d2d2d2cf;
+    color: #35485a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+/* .previewimgerror svg.MuiSvgIcon-root {
+    margin-bottom: 9px;
+    font-size: 53px;
+} */
+.previewimgerror p {
+    margin: 0;
+    line-height: 25px;
+    font-size: 22px;
+}
+/* Preview modal css end */
+
+/* CompanyStoreCard Skeleton css start */
+
+/* AlertComponent css end */
+/* ---FAQ css start--- */
+p.faqdetails {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 23px;
+    font-size: 14px;
+    color: #2b3a52;
+    
+}
+.faqsectionstart .MuiCollapse-container.MuiCollapse-entered {
+    border-top: 1px solid #eee;
+}
+.expansionheader {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 100%;
+}
+p.faqheading {
+    margin: 0;
+    color: #232e40;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.expansionheader .MuiSvgIcon-root {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+p.faqsubhead {
+    margin: 0;
+    font-size: 13px;
+    margin-top: 8px;
+    color: #8e8e90;
+}
+.faqsectionstart .MuiPaper-root.MuiExpansionPanel-root {
+    box-shadow: none;
+    border-radius: 3px;
+    margin: 0
+}
+span.timebulet {
+    position: relative;
+    margin-right: 12px;
+}
+.faqsectionstart .MuiExpansionPanelSummary-root {
+    padding: 12px;
+}
+.faqsectionstart .MuiExpansionPanelSummary-content,.faqsectionstart .MuiExpansionPanelSummary-content.Mui-expanded {
+    margin: 0;
+}
+.faqsectionstart .MuiExpansionPanelDetails-root {
+    padding: 20px;
+}
+.faqsectionstart .MuiExpansionPanelSummary-root.Mui-expanded {
+    min-height: 48px;
+}
+span.timebulet:before {
+    position: absolute;
+    content: '';
+    background: #afafbb;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    right: -6px;
+    top: 6px;
+}
+.faqsectionstart .avatarholder {
+    width: 45px;
+    height: 45px;
+}
+.faqsectionstart {
+    margin-bottom: 15px;
+    position: relative;
+}
+/* ---Faq css end--- */
+.storeCardSkeleton .MuiSkeleton-text {
+    transform: unset;
+    background: #e6e6e6;
+}
+.storeCardSkeleton p.company-deatail {
+    margin: 30px 0 0;
+}
+.storeCardSkeleton p.company-deatail .MuiSkeleton-text {
+    margin: 9px 0;
+}
+
+/* CompanyStoreCard Skeleton css end */
+/* Image cropper css start */
+.zoomcontrols .MuiSlider-thumb{
+    /* top: 8px; */
+    top: 0 !important;
+    bottom: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+}
+.zoomcontrols .MuiSlider-track{
+    background-color: #ffffff; 
+}
+.imagecropperappear .MuiPaper-root.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-rounded {
+    max-width: 40%;
+    min-width: 40%;
+    max-height: 55%;
+    min-height: 55%;
+}
+/* .croppinsecimagecover .MuiPaper-root.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-rounded {
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 62%;
+    min-height: 62%;
+}
+.croppinsecimagecover p.zoomslidertext {
+    left: 80px;
+} */
+.imagecropperappear .MuiDialogContent-root{
+    position: relative;
+    overflow: hidden;
+}
+.imagecropperappear .MuiDialogContent-root .css-1dkwqii{
+    height: 100%;
+    width: 100%;
+}
+.zoomcontrols .MuiSlider-rail {
+    background-color: #6d6d6d !important;
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.zoomcontrols .MuiSlider-root {
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    width: 60%;
+    position: relative;
+    /* bottom: 10px; */
+    /* margin: 0 auto; */
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    padding: 0;
+}
+/* p.zoomslidertext {
+    position: absolute;
+    bottom: -4px;
+    left: 33px;
+    width: 80%;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+} */
+p.zoomslidertext {
+    bottom: 0;
+    margin: 0;
+    width: unset;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.zoomcontrols {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: #00000075;
+    bottom: 0;
+    /* padding: 46px 0 0 0; */
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.MuiButton-text.buttonclass.dialogagreebtn {
+    height: 33px;
+    padding: 0 18px;
+    text-transform: capitalize;
+}
+button.MuiButtonBase-root.buttonclass.dialogagreebtn.dialogdisagreebtn {
+    background: transparent;
+    color: #717171;
+}
+.MuiDialogTitle-root.createalbumname-title {
+    padding: 10px;
+}
+.createalbumname-title h2.MuiTypography-root.MuiTypography-h6 {
+    font-size: 17px;
+}
+/* Image cropper css end */
+.dropzoneattachmentsection {
+    height: 333px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.uploadVideoInput {
+    height: 333px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px dashed #d6d6d6; */
+}
+p.uploadtexthead {
+    margin: 0 0 5px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #afafaf;
+}
+p.uploadtextsubhead {
+    margin: 0 0 25px;
+    font-size: 11px;
+    color: #737373;
+}
+.buttonComponent_start.uploadfilebtnui button.mainbuttoncls {
+    padding: 8px 25px;
+    text-transform: inherit;
+    font-weight: 400;
+    font-size: 14px;
+}
+.fileuploadbutton{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fileuploadbutton input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.fileuploadbutton button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass {
+    text-transform: unset;
+    font-size: 16px;
+}
+.fileattachmentsection .uploadingbottompart {
+    margin: 0;
+    margin-left: 7px;
+}
+.fileattachmentsection .fileUploadProgress p {
+    margin: 0;
+    font-size: 13px;
+}
+.fileattachmentsection .fileUploadProgress {
+    margin-top: 5px;
+}
+.fileattachmentsection p.uploadComplete {
+    font-size: 13px;
+}
+.fileattachmentsection .uploadedfilelisting img {
+    width: 17px;
+    height: 17px;
+}
+.forLectureVideoUpload {
+    min-height:333px;
+    /* border: 1px dashed; */
+}
+.uploadFileListing {
+    background-color: #efefef;
+    padding: 12px 12px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+  
+}
+.uploadComplete .MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary {
+    background: green;
+}
+.uploadedfilelisting{
+    background-color: #efefef;
+    padding: 6px 12px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.uploadedfilelisting img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.uploadedfilelisting img:hover{
+background-color: #d6d6d6
+}
+.uploadFileListing p.uploadFileName.uploadDocName,.uploadedfilelisting p {
+    margin: 0;
+}
+p.uploadFileName {
+    margin: 0;
+    /* padding-bottom: 9px; */
+}
+p.uploadComplete {
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+.fileuploadtext p.uploadFileName.uploadDocName {
+    width: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 9px;
+}
+.fileuploadtext {
+    position: relative;
+    width: 90%;
+}
+
+img.afterimgfile {
+    width: 17px;
+    height: auto;
+    padding: 0;
+    border-radius: 0;
+    cursor: default;
+}
+img.afterimgfile:hover {
+    background: transparent;
+}
+
+.fileuploadtooltip {
+    /* display: inline-block; */
+    /* position: relative; */
+    /* border-bottom: 1px dotted #666; */
+    text-align: left;
+}
+.fileuploadtooltip .tooltipbottom {
+    min-width: 200px;
+    top: 34px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #424242;
+    font-weight: normal;
+    font-size: 13px;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 99999999;
+    box-sizing: border-box;
+    /* box-shadow: 0 1px 8px rgba(0,0,0,0.5); */
+    display: none;
+}
+
+.fileuploadtooltip:hover .tooltipbottom {
+    display:block;
+}
+
+.fileuploadtooltip .tooltipbottom i {
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.fileuploadtooltip .tooltipbottom i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color:#424242;
+    /* box-shadow:0 1px 8px rgba(0,0,0,0.5); */
+}
+.progressUploading .ant-progress-line {
+    width: 97%;
+}
+
+/* ---company Card css end--- */
+@media screen and (min-width:320px) and (max-width:768px){
+    .previewimagedivstart {
+        z-index: 9999999999;
+    }
+    svg.MuiSvgIcon-root.downalodbtn {
+        right: 9%;
+        top: 2px;
+        z-index: 999;
+    }
+    .previewimagedivstart .image-gallery-left-nav,.previewimagedivstart  .image-gallery-right-nav {
+        padding: 50px 0px;
+    }
+    .error-componentstart {
+        text-align: left;
+        line-height: 18px;
+        padding: 5px 13px;
+    }
+    /* Pagination responsive start */
+    .paginationsectionstart {
+        padding: 1em 1em;
+    }
+    .paginationsectionstart .MuiPaginationItem-root{
+        min-width: 28px;
+        height: 28px;
+    }
+    /* Pagination responsive end */
+
+    /* AlertComponent responsive start */
+    .MuiDialog-root.alertDialog .MuiDialog-paperWidthSm{
+        min-width: 350px;
+    }
+    /* AlertComponent responsive end */
+
+    /* Breadcrumb section responsive start  */
+    .bredcrumbsectionstart {
+        padding: 25px 20px;
+    }
+    /* Breadcrumb section responsive end  */
+
+    /* Manager List Card Responsive start */
+    .managerlistcard .dropdownfieldstart .MuiPaper-root.MuiPopover-paper {
+        margin-top: 15px;
+    }
+    .managerlistcard .dropdownancher .MuiPaper-elevation1::after{
+        margin: 0;
+        right: 2px;
+        left: unset;
+    }
+    .dropdownfieldstart .dropdownancher.cardDropdwonCls .MuiPopover-paper{
+        margin-top: 15px;
+    }
+    .dropdownancher.cardDropdwonCls .MuiPaper-elevation1::after{
+        margin: 0;
+        right: 2px;
+        left: unset;
+    }
+    .buttoncomponent-start.downloadbtnextracls{
+        right: 86px;
+    }
+    p.cardtitle{
+        width: 88%;
+    }
+    /* Manager List Card Responsive end */
+
+    /* Image cropper responsive start */
+    .imagecropperappear .MuiPaper-root.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-rounded {
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    /* Image cropper responsive end */
+    
+}
+
+/* for iphone S5 responsive start */
+@media screen and (min-width:320px) and (max-width:568px){
+    .MuiDialog-root.alertDialog .MuiDialog-paperWidthSm {
+        min-width: 305px;
+    }
+}
+/* for iphone S5 responsive start */
+ 
+
+/* For iPad Responsive start */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .editoption{
+        border-color: #d0d0d0;
+    }
+}
+
+
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px) {
+    .imagecropperappear .MuiPaper-root.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-rounded {
+        min-width: 65%;
+    }
+    h2.company-cardHeading{
+        max-width: 150px;
+    }
+    
+
+}

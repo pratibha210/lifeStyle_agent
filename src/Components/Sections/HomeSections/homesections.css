@@ -1,0 +1,313 @@
+/* HomeAbout Section css start */
+.homepage{
+    background-color: #efefef;
+    /* padding-top:47px; */
+}
+.each-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.each-slide{
+    width: 100%;
+    height: 100%;
+    /* height: 450px; */
+    position: relative;
+}
+.sliderOverlay {
+    width: 100%;
+    /* background: #1753c145; */
+    background: linear-gradient(to right, rgba(0, 28, 82, 0.70), #1753c160);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.sliderContent {
+    width: 20%;
+    height: auto;
+}
+.aboutsection .react-slideshow-container .nav{
+    background-color: transparent;
+}
+.aboutsection .react-slideshow-container .nav:hover{
+    background-color: transparent;  
+}
+.aboutsection .react-slideshow-container .nav span{
+    border-color: #fff;
+}
+.aboutsection .indicators {
+    display: none !important;
+}
+
+/* HomeAbout Section css end */
+
+
+/* HomeAgent Section css start */
+.agentsection{
+    /* width:100%; */
+    height: auto;
+    background: 
+    linear-gradient( rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80) ),
+    url('../../../Images/agentbg.jpg');
+    padding: 5em 12em;
+    /* padding: 80px 285px; */
+    /* margin: 50px 0 0; */
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.agentsection h1 {
+    color: #fff;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 0 28px;
+}
+.agentsection p {
+    color: #e6e6e6;
+    line-height: 33px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+}
+.agentsection button.MuiButton-root.buttonclass {
+    height: 48px;
+    padding: 0 32px;
+    margin-top: 12px;
+}
+/* HomeAgent Section css end */
+
+/* FAQ & ContactUs Section css start */
+.faqAccordian button.MuiButton-root.buttonclass {
+    background: transparent;
+    color: #0f3990;
+    text-transform: capitalize;
+    padding: 0;
+    height: 17px;
+    line-height: 0;
+    border-bottom: 1px solid #0f3990;
+    border-radius: 0;
+}
+.homefaqimgdiv {
+    padding-left: 49px;
+    padding-top: 5em;
+}
+img.homepagefaqimg {
+    width: 100%;
+    height: 100%;
+}
+h2.contactHeading {
+    /* padding-left: 25px; */
+    margin: 0;
+}
+.contactusSec {
+    overflow: hidden;
+    padding: 50px 0 80px;
+}
+.faqAccordian {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+h2.contactHeading {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 100;
+    margin-bottom: 35px;
+}
+
+.faqsectionstart .MuiExpansionPanel-root:before{
+    background: transparent !important;
+    border: none
+}
+
+.MuiGrid-root.rightSideBorder.MuiGrid-item::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    background: #e2e3e5;
+    height: 80%;
+    bottom: 0;
+    margin: auto;
+}
+.MuiGrid-root.rightSideBorder.MuiGrid-item {
+    position: relative;
+}
+
+
+.contactusPart {
+    padding: 0 50px;
+}
+.contactusPart h4 {
+    font-size: 18px;
+    color: #1e2229;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.textfieldinput .textfieldclass.contactInputField input::placeholder {
+    font-size: 14.5px !important;
+    color: #383838 !important;
+}
+.textfieldinput .textfieldclass.contactInputField textarea::placeholder{
+    font-size: 14.5px !important;
+    color: #383838;
+    font-weight: 300;
+}
+.textfieldinput .textfieldclass.contactInputField input{
+    background: #fff;
+    border: 1px solid #f3f3f3;
+    border-radius: 4px;
+    margin-bottom: 3px;
+}
+.textfieldinput .textfieldclass.contactInputField textarea{
+    background: #fff;
+    /* border: 1px solid #f3f3f3; */
+    border-radius: 4px;
+    margin-bottom: 0;
+}
+.textfieldclass.contactInputField .MuiOutlinedInput-multiline.MuiOutlinedInput-marginDense {
+    border: 1px solid #ffffff !important;
+}
+.contactusPart .buttoncomponent-start {
+    text-align: right;
+}
+.contactusPart button.MuiButton-root.buttonclass {
+    padding: 0 45px;
+    height: 45px;
+}
+
+
+/* FAQ & ContactUs Section css end */
+
+/* Training Section css start */
+.trainingsection {
+    padding: 50px 50px;
+    /* background-color: #f7f7f7; */
+}
+.MuiGrid-root.hometraingsectiongrid {
+    padding: 8px 30px !important;
+}
+.trainingsection h1 {
+    text-align: center;
+    margin: 0 0 50px;
+    font-family: 'DM Serif Display', serif;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 100;
+    color: #1e2229;
+}
+.trainingsection .buttoncomponent-start {
+    text-align: center;
+    margin: 55px 0 8px;
+}
+.trainingsection button.MuiButton-root.buttonclass {
+    height: 48px;
+    padding: 0 44px;
+}
+
+
+
+
+/* Training Section css end */
+
+
+@media screen and (min-width:320px) and (max-width:768px){
+
+     /* About section responsive start */
+    .each-slide{
+        height: 200px;
+    }
+     /* Agent section responsive end */
+
+    /* Agent section responsive start */
+    .agentsection{
+        padding: 50px 15px;  
+    }
+    .agentsection p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .agentsection h1{
+        font-size: 26px;
+    }
+    /* Agent section responsive end */
+
+    /* Training section responsive start */
+
+    .MuiCardMedia-root.cardMediaCls{
+        /* height: 100%; */
+    }
+    .trainingsection {
+        padding: 50px 15px;
+    }
+    .trainingsection h1 {
+        font-size: 26px;
+        margin: 0 0 35px;
+    }
+    .trainingsection .buttoncomponent-start {
+        margin: 40px 0 0;
+    }
+    /* Training section responsive end */
+
+    /* Contact Us section responsive start */
+    /* .faqAccordian {
+        padding: 0 15px;
+    }
+    .faqAccordian p.MuiTypography-root.MuiTypography-body1{
+        align-items: flex-start;
+    } */
+    
+    h2.contactHeading{
+        margin-bottom: 15px;
+        font-size: 26px;
+    }
+    .contactusPart{
+        padding: 0 15px;
+    }
+    .faqAccordian{
+        padding: 0 15px
+    }
+    
+
+    img.sliderContent{
+        width: 28%;
+    height: auto;
+    }
+    .contactusPart button.MuiButton-root.buttonclass {
+        padding: 0 45px;
+        height: 45px;
+        /* width: 100%; */
+    }
+    /* .contactusPart h4{
+        font-size: 16px;
+    }
+    .contactusSec{
+        padding: 50px 0;
+    }
+    .contactusPart {
+        padding: 25px 15px 0;
+    } */
+    /* Contact Us section responsive end */
+}
+
+/* ipad view start */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .contactusPart button.MuiButton-root.buttonclass {
+       
+        width: unset;
+    }
+}
+/* ipad view end */
+
+/* ipad pro view start */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px) {
+    .agentsection{
+        padding: 5em;
+    }
+}
+/* ipad pro view end */

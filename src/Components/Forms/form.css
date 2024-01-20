@@ -1,0 +1,1406 @@
+html, body, #root {
+    height: 100%;
+    background: #efefef;
+}
+/* ---Sign up css start-- */
+.formareastart {
+    position: relative;
+}
+.signup-pagestart {
+    height: auto;
+    padding: 5em;
+    background: #efefef;
+    position: relative;
+}
+p.signupmsg {
+    position: absolute;
+    margin: 0 auto;
+    top: 20px;
+    left: 0;
+    color: #1e2229;
+    background-color: #edecec;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    right: 0;
+    width: 60%;
+    text-align: center;
+    border-left: 3px solid #5e7ef6;
+    transition: 3s;
+}
+
+.signup-innersec {
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+    /* background: #fff; */
+    background: linear-gradient(-180deg, rgba(46, 113, 236, 0.61) 22%, rgba(26,27,31,1) 100%, rgba(248,162,54,1) 100%, rgba(80,119,225,1) 100%),url('../../Images/authimg.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.signup-leftsidesec {
+    width: 20%;
+    /* height: 100%;
+    background: rgb(46,113,236);
+background: linear-gradient(117deg, rgba(46,113,236,1) 22%, rgba(26,27,31,1) 100%, rgba(248,162,54,1) 100%, rgba(80,119,225,1) 100%);    */
+}
+.signup-rightsidesec {
+    height: auto;
+    padding: 3em;
+    width: 80%;
+    background: white;
+}
+p.signup-heading {
+    margin: 0 0 10px;
+    font-size: 40px;
+    color: #020202;
+    font-family: 'DM Serif Display', serif;
+}
+p.signup-subtext {
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    color: #6d6d6d;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.MuiGrid-root.signuptextfield.MuiGrid-item {
+    padding-top: 26px;
+}
+.MuiGrid-root.signup-bottomgrid.MuiGrid-item {
+    padding-top: 25px;
+}
+.signup-bottom {
+    text-align: right;
+}
+p.already-account {
+    font-size: 16px;
+    color: #2d2d2d;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.already-account a {
+    color: #2d70f4;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4px;
+}
+button.MuiButton-root.buttonclass.signup-button {
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+}
+.MuiGrid-root.signup-bottomgrid.MuiGrid-container {
+    padding-top: 30px;
+}
+p.open {
+    line-height: 40px;
+    max-height: 40px;
+    height: 40px;
+    /* padding: 10px; */
+    transition: all 0.5s ease;
+}
+p.close.signupmsg {
+    height: 0;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+/* ---Sign up css end-- */
+/* ---Login css start-- */
+.password-login {
+    position: relative;
+}
+p.forgot-password a {
+    color: #3a61b2;
+    /* text-decoration: none; */
+}
+p.forgot-password {
+    margin: 0;
+    position: absolute;
+    right: 9px;
+    font-size: 15px;
+    top: 28px;
+    z-index: 9;
+    color: #2b2b2b;
+    font-family: 'Lato', sans-serif;
+}
+p.forgot-password a:hover {
+    color: #2b70f4;
+}
+.already-account a:hover {
+    color: #001d56;
+}
+
+
+/* ---Login css end-- */
+/* ---Forgot password css start-- */
+.signup-pagestart.forgotpass-pagestart {
+    display: flex;
+    justify-content: center;
+    padding: 4em 0;
+}
+.forgotpass-pagestart .signup-innersec {
+    width: 70%;
+}
+button.buttonclass.forgot-button {
+    width: 50%;
+    /* height: 40px; */
+    height: 44px;
+    font-size: 15px;
+    /* margin-top: 25px; */
+    margin-top: 23px;
+}
+p.backtologin {
+    margin: 0;
+    padding-top: 28px;
+}
+p.backtologin a:hover {
+    color: #002371;
+}
+.backtologin a {
+    text-decoration: none;
+    color: #276ff3;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    /* padding-top: 46px; */
+}
+.resetpasswordmsgcls {
+    background-color: #276ff314;
+    padding: 17px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 25px;
+    border-left: 3px solid #3170f3;
+}
+.resetpasswordmsgcls p {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.resetpasswordmsgcls span {
+    color: #2770f4;
+    font-weight: 400;
+    cursor: pointer;
+}
+/* ---Forgot password css end--- */
+/* ---Reset password css start--- */
+
+/* ---Reset password css end--- */
+
+
+/* / ---img uploader / */
+.profiledpuploader {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    position: relative;
+    /* width: 220px;
+    height: 220px; */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.profiledpview {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background:#eeeeee url('../../Images/unnamed.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.inputfilewrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d72f6;
+    color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* overflow: hidden; */
+    cursor: pointer;
+    margin-top: 0;
+    opacity: 0.8;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border-radius: 100px;
+    /* padding: 10px; */
+    /* border-radius: 50%; */
+    transition: all ease .5s;
+}
+.inputfilewrapper:hover {
+    width: 85px;
+    transition: 0.5s;
+    /* justify-content: space-around; */
+}
+.inputfilewrapper span.editTxtShow {
+    display: none;
+}
+.inputfilewrapper:hover span.editTxtShow {
+    display: block;
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+}
+.inputfilehovereffect {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
+/* .inputfilewrapper:before {
+    content: 'Edit';
+    background-color: #2d72f6;
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    padding: 9.5px 0;
+    width: 0;
+    border-radius: 30px 0 0 30px;
+    top: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: all ease .5s;
+}
+.inputfilewrapper:hover:before {
+    padding-right:14px;
+    opacity: 1;
+    left: -43px;
+    padding-left: 14px;
+    width: 29px;
+    transition: all ease .5s;
+} */
+p.editprofiletext {
+    margin: 0;
+    font-size: 13.5px;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    text-transform: unset;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+img.editpencilcss {
+    height: 13px;
+    width: 13px;
+}
+.inputfilewrapper input[type="file"] {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+}
+
+img.profileimgcss {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    object-fit: contain;
+    object-position: center;
+}
+/* / ---img uploader / */
+
+/* Uploader form css start */
+.pricingtextfield .MuiInputBase-root {
+    border: 1px solid #e8e8e8;
+}
+.textfieldinput .textfieldclass.pricingtextfield input {
+    border: none;
+}
+.pricingtextfield .MuiInputBase-root:focus,
+.pricingtextfield .MuiInputBase-root:focus-within {
+border-color: #7d7d7d !important;
+outline: none
+}
+.textfieldinput .pricingtextfield .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-marginDense.MuiOutlinedInput-marginDense:hover {
+    border-color: #e8e8e8;
+}
+
+.forcompanystorecls .fileuploadsection {
+    height: 284px;
+}
+
+.uploaderformstart {
+    padding: 0 8px;
+}
+.fileimagecss{
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+svg.MuiSvgIcon-root.cameraicon {
+    height: 35px;
+    width: 35px;
+    fill: #9a9a9a;
+}
+.fileviewsection {
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 2px dashed #f1eeee;
+    /* margin-top: 10px; */
+    padding: 1px;
+    position: relative;
+    /* margin-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px
+}
+.formtextinputsection{
+    width: 65%
+}
+.fileinputwrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    background-color: #0000007d;
+}
+.fileinputwrapper p {
+    margin: 0;
+    font-size: 13px;
+    position: relative;
+    color: white;
+}
+input.uploaderimgtype {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%
+}
+.uploaderformstart {
+    padding: 20px 25px 0;
+    display: flex;
+    /* align-items: center; */
+    width: auto;
+}
+.fileuploadsection {
+    height: 190px;
+    width: 35%;
+    margin-right: 22px;
+    position: relative;
+}
+.fileuploadsection p.errormsg{
+    bottom: -48px
+}
+p.fileuploadtitle {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    font-family: 'Lato', sans-serif;
+}
+.addformdialogdiv .buttoncomponent-start {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.addformdialogdiv button.MuiButton-root.buttonclass{
+    margin-top: 0;
+    font-size: 17px;
+    text-transform: unset;
+    cursor: pointer;
+}
+.formtextinputsection .textfieldinput {
+    margin-bottom: 27px;
+}
+.margin_top{
+    margin-top: 40px;
+}
+.uploaderformstart.managerForm{
+    align-items: center;
+}
+.uploaderformstart.managerForm .formtextinputsection{
+    margin-top: 23px;
+}
+.addmanagerformstart .error-componentstart {
+    top: 7px;
+    width: 86%;
+    padding: 7px 25px;
+}
+.uploadFormCls{
+    /* padding: 0 25px; */
+    position: relative;
+}
+.forcategoryfield .fileuploadsection {
+    height: 284px;
+}
+.onlyfortrainingupload {
+    /* display: flex;
+    align-items: center; */
+    margin-top: 14px;
+    margin-bottom: 12px
+}
+/* .onlyfortrainingupload p {
+    margin: 0;
+    color: #1d1d1d;
+    font-size: 15px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 500;
+} */
+.onlyfortrainingupload .fileviewsection{
+    height: 45px;
+    width: 80%;
+    margin-bottom: 0;
+    margin-left: 20px;
+    background: transparent;
+    border: 2px dashed #d4d1d1;
+}
+.onlyfortrainingupload .fileinputwrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    background: transparent;
+}
+.onlyfortrainingupload .fileinputwrapper p {
+    font-weight: 400;
+    margin: 0;
+    font-size: 13px;
+    position: unset;
+}
+.onlyfortrainingupload svg.MuiSvgIcon-root.cameraicon{
+    margin-right: 5px;
+    fill: #969696;
+}
+/* Uploader form css end */
+/* --add Buyform  css start--*/
+.addbuttonfooter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+.MuiFormControl-root.chipinputdiv.buychipfieldinputcls {
+    width: 100%;
+     border: 1px solid #f3f3f3;
+     padding: 2px;
+     border-radius: 3px;
+}
+p.labeltitle {
+    color: #1d1d1d;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    /* margin-bottom: 4px; */
+    display: flex;
+    margin: 0 0 4px;
+}
+.buychipfieldinputcls .WAMuiChipInput-underline-298:before, 
+    .buychipfieldinputcls .WAMuiChipInput-underline-298:after{
+    content: unset;
+}
+.chipfeild .buychipfieldinputcls input {
+    /* border: 1px solid #f3f3f3; */
+    padding: 0;
+    /* border-radius: 3px; */
+}
+.MuiButtonBase-root.MuiChip-root.MuiChip-clickable.MuiChip-deletable {
+
+    margin: 3px !important;
+}
+.buynowinput .textfieldinput .textfieldclass.contactInputField input{
+    padding: 8px 4px;
+    height: 20px;
+    width: 80%;
+}
+.buynowinput.buynowselect::before {
+    content: unset;
+    display: none;
+}
+.buynowselect .singleselect .css-yk16xz-control {
+    border-color: #f3f3f3;
+}
+
+.buynowinput:first-child::before {
+    position: absolute;
+    content: '';
+    background: #666;
+    right: 4px;
+    top: 17px;
+    width: 6px;
+    height: 1.4px;
+}
+.buynowinput {
+    width: 100%;
+    position: relative;
+}
+.inputfiedgroup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+/* .buynowinput .textfieldinput {
+    margin-bottom: 0;
+} */
+/* --add Buyform  css end--*/
+/* --Upload trainning form css start-- */
+.selectcategoryinput .css-yk16xz-control,.selectcategoryinput .css-1pahdxg-control {
+    border-color: #e8e8e8;
+    padding: 3px 8px;
+    box-shadow: none;
+    border-radius: 3px;
+}
+.selectcategoryinput .css-1pahdxg-control:hover ,.selectcategoryinput .css-1pahdxg-control:focus,
+.selectcategoryinput .css-yk16xz-control:hover,.selectcategoryinput .css-yk16xz-control:focus
+  {
+border-color: #7d7d7d !important
+}
+.trainningvideoformstart .fileuploadsection {
+    width: 100%;
+    height: 230px;
+    margin-bottom: 18px;
+}
+.trainningvideoformstart p.fileuploadtitle {
+    color: #020202;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+p.seconduploadtextdrop {
+    font-size: 13px;
+    color: #909090;
+    line-height: 17px;
+    margin: 10px 0;
+}
+.attachmentsection {
+    /* height: 100%; */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.disablediv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffffc7;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.attachmentsection .filepicker.dropzone.dz-clickable {
+    background-color: transparent;
+    min-height: 210px;
+    max-height: 210px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #f3f3f3;
+    overflow-y: auto;
+    position: relative;
+    text-align: left;
+    padding: 5px 0 5px 15px;
+}
+/* .forfileupload .filepicker.dropzone.dz-clickable {
+    display: flex;
+    text-align: center;
+} */
+.attachmentsection .dz-default.dz-message {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    padding: 0 11px;
+    margin: 1em 0;
+}
+.attachmentsection .dropzone .dz-preview {
+    width: 75px;
+    height: 75px;
+    margin-top: 0;
+    min-height: 85px;
+    margin: 10px 10px 32px 2px;
+}
+.attachmentsection .dropzone .dz-preview:hover{
+    z-index: 9;
+}
+.attachmentsection .dropzone .dz-preview .dz-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #f1f1f1;
+}
+.attachmentsection .dropzone .dz-preview:hover a.dz-remove {
+   opacity: 1 !important;
+   z-index: 10 !important;
+}
+.attachmentsection .dropzone .dz-preview .dz-details {
+    bottom: -25px;
+    top: unset;
+    left: 0;
+    opacity: 1;
+    font-size: 10px;
+    padding: 4px 0;
+    color: rgb(68, 68, 68);
+    border: 1px solid #f1f1f1;
+}
+.attachmentsection .dropzone .dz-preview .dz-details .dz-filename:hover span{
+    border: none
+}
+.attachmentsection .dropzone .dz-preview .dz-details .dz-filename:hover{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.attachmentsection .dropzone .dz-preview .dz-details .dz-size{
+    display: none
+}
+.dropzone .dz-preview.dz-image-preview {
+    background-color: transparent;
+    position: relative;
+}
+.attachmentsection .dropzone .dz-preview .dz-progress {
+    left: 71%;
+    width: 51px;
+    z-index: 10;
+}
+.attachmentsection .dropzone .dz-preview .dz-remove{
+    z-index: 98;
+}
+.attachmentsection .dropzone .dz-preview .dz-success-mark,.attachmentsection .dropzone .dz-preview .dz-error-mark {
+    top: 50%;
+    left: 60%;
+    display: block;
+    z-index: 98;
+}
+
+.attachmentsection .dropzone .dz-preview .dz-success-mark svg,.attachmentsection .dropzone .dz-preview .dz-error-mark svg {
+    width: 40px;
+    height: 53px;
+}
+.attachmentsection .dropzone .dz-preview .dz-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+.attachmentsection .dropzone .dz-preview.dz-error .dz-error-message {
+    display: none;
+}
+p.dropzonebtn {
+    margin: 0 auto;
+    background: #3d66b9;
+    color: #fff;
+    padding: 10px 0;
+    width: 55%;
+    border-radius: 3px;
+}
+.forfileupload p.dropzonebtn{
+    width: 40%;
+}
+p.firstuploadtextdrop {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+.forfileupload .forLectureVideoUpload {
+    min-height: 228px;
+}
+.forfileupload .uploadingStatus p {
+    margin: 0;
+}
+.forfileupload .uploadingbottompart {
+    margin: 0;
+    /* padding: 0; */
+}
+.forfileupload .uploadFileListing {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.attachmentsection a.dz-remove {
+    opacity: 0 !important;
+    /* display: none; */
+    font-size: 0 !important;
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background: url(../../Images/cancel.png);
+    background-size: 14px;
+    background-position: center;
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 14px;
+    background-repeat: no-repeat;
+}
+svg.MuiSvgIcon-root.completedoneicon {
+    margin-left: 5px;
+}
+.fileuploadbutton.fileuploadbtnvdo {
+    margin-top: 29px;
+}
+.trainningvideoformstart label.MuiFormLabel-root.MuiInputLabel-root.textinputlabel.MuiInputLabel-animated.MuiInputLabel-shrink {
+    font-size: 20px;
+}
+.attachmentsection.forfileupload .uploadVideoInput {
+    height: 228px;
+}
+.attachmentsection.forfileupload .dropzoneattachmentsection {
+    border: 2px dashed #f3f3f3;
+    height: 228px;
+}
+.addformdialogdiv .trainningvideoformstart .fileuploadbutton button.MuiButton-root.buttonclass {
+    font-size: 14px;
+}
+.addformdialogdiv .trainningvideoformstart .textfieldinput .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline.MuiInputBase-marginDense.MuiOutlinedInput-marginDense,
+.addformdialogdiv .trainningvideoformstart .textfieldinput .textfieldclass input {
+    background: #fff;
+
+}
+.uploadVideoInput {
+    /* padding: 0px 6px 0 0; */
+    display: flex;
+    align-items: center;
+    /* border-radius: 2px; */
+    cursor: pointer;
+    /* height: 35px; */
+    position: relative;
+}
+.uploadedimagepreview {
+    height: 150px;
+    width: 300px;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 0;
+    border-radius: 3px;
+}
+.uploadedimagepreview img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.addLectureTabContent .MuiBox-root {
+    padding: 0;
+}
+.uploadfilebtnui button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass {
+    background: #dedede;
+    color: #4e4e4e;
+    padding: 7px 17px;
+    border-radius: 0;
+}
+
+p.uplodFileTxt {
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.MuiTabs-root.addLectureTab .MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit {
+    padding: 0;
+    max-width: 105px;
+    min-width: 45px;
+    border-bottom: 2px solid transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-right: 15px;
+    padding: 0 8px;
+    color: #364a63;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.MuiTabs-root.addLectureTab .MuiTabs-flexContainer{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+p.lectureModalTitle {
+    font-size: 19px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #364a63;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.MuiFormControl-root.MuiTextField-root.textfieldclass.MuiFormControl-marginDense {
+    background-color: #f0f0f0 !important;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 2px;
+}
+.lectureTabCls {
+    margin-top: 20px;
+}
+.lectureUploadDropzone .filepicker.dropzone.dz-clickable {
+    background: unset;
+    min-height: 120px;
+}
+.courseUploadDoropZon.photovideouploadsection.lectureUploadDropzone .dropzone .dz-message {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MuiDialogContent-root.addlecturecontent .MuiFormControl-root.MuiTextField-root.textfieldclass.MuiFormControl-marginDense {
+    background: transparent !important;
+    border: 1px solid #dfdfdf;
+}
+.addlecturecontent.MuiDialogContent-root.addlecturecontent .MuiFormControl-root.MuiTextField-root.textfieldclass.MuiFormControl-marginDense
+{
+border: none !important;
+}
+.addlecturecontent .textfieldinput .textfieldclass input{
+    border: 1px solid #dfdfdf;
+}
+
+.xtarclsfordoc p.uploadvideotitle.attachDocTitle{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #394c65;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+img.attachIcn {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+.videoattachmentsection .uploadFileListing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eee;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.videoattachmentsection .uploadFileListing p {
+    margin: 0;
+    font-size: 14px;
+    color: #364a63;
+    font-weight: 500;
+}
+svg.MuiSvgIcon-root.uploadcloseIcon {
+    font-size: 14px;
+    cursor: pointer;
+    padding: 3px;
+    opacity: 0.9;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+svg.MuiSvgIcon-root.uploadcloseIcon:hover {
+    opacity: 1;
+    background-color: #dadada;
+}
+.videoattachmentsection .uploadVideoInput {
+    border: 1px solid #dfdfdf;
+    padding: 0px 6px 0 0;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    /* height: 35px; */
+    position: relative;
+    /* flex-flow: row; */
+}
+.uploadsec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.videoattachmentsection .forLectureVideoUpload {
+    min-height: unset;
+    /* border: 1px dashed; */
+    width: 100%;
+}
+.videoattachmentsection .uploadFileListing {
+    margin-bottom: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.videoattachmentsection p.uploadFileName {
+    padding-bottom: 0;
+    margin: 16px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.videoattachmentsection .MuiLinearProgress-root.linearProgressCls {
+    width:265px;
+    margin-left: 0
+}
+.videoattachmentsection .fileUploadProgress.progressUploading {
+    display: block;
+}
+.uploadingbottompart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 10px 0 0;
+}
+p.canceltxt {
+    color: #404040 !important;
+}
+p.canceltxt:hover {
+    color: #0a0a0a !important;
+}
+.progressUploading .uploadingbottompart p {
+    color: #171717;
+    font-weight: 400;
+    font-size: 13px;
+}
+.videoattachmentsection .uploadVideoInput input[type="file"] {
+    position: absolute !important;
+    height: 34px;
+    width: 100%;
+    opacity: 0 !important;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0;
+    cursor: pointer;
+}
+.addformdialogdiv .videoattachmentsection button.MuiButton-root.buttonclass {
+    margin-top: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #717171;
+    padding: 0 11px;
+    height: 34px;
+    cursor: pointer;
+}
+.videoattachmentsection {
+    height: 213px;
+    border: 2px dashed #eee;
+    padding: 11px;
+    background: #f8f8f8;
+}
+.uploadingfilediv {
+    background-color: #efefef;
+    padding: 6px 12px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+button.MuiButton-text.buttonclass.createbtncls {
+    padding: 0 25px;
+    background: #242424;
+    border-radius: 3px;
+    color: #f3f3f3;
+    opacity: 1;
+}
+.buttonclass.MuiButton-text.createbtncls:hover{
+    opacity: 0.9;
+}
+.MuiFormControl-root.MuiTextField-root.lectureYoutubeLinkArea input {
+    padding: 7px 10px;
+}
+.MuiFormControl-root.MuiTextField-root.lectureYoutubeLinkArea input::placeholder {
+    font-size: 15px !important;
+    color: #a2a2a2 !important;
+    font-weight: 400 !important;
+    opacity: 12;
+}
+.uploadDocCls input[type="file"] {
+    opacity: 0;
+    position: absolute;
+}
+.xtarclsfordoc  .uploadDocCls input[type="file"]{
+    opacity: 1;
+    position: unset;
+}
+.addLectureTabContent input[type=file]::-webkit-file-upload-button { /* chromes and blink button */
+    cursor: pointer; 
+}
+.uploadDocCls {
+    position: relative;
+}
+.MuiDialogContent-root.addlecturecontent .uploadsec{
+    padding-top: 20px;
+    padding-bottom: 12px
+}
+.uploadingStatus p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.fileUploadProgress {
+    display: flex;
+    align-items: center;
+}
+.uploadingStatus {
+    display: flex;
+    align-items: center;
+}
+.uploadingStatustwo p.uploadFileName {
+    font-size: 15px;
+}
+.videoloaderstart.lectureUploaderCls {
+    padding: 0;
+    margin: 0;
+}
+.videoloaderstart.lectureUploaderCls .videoloadermaintxt {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+p.uploadComplete {
+    display: flex;
+    align-items: center;
+    color: green;
+}
+.uploadingfilediv p.uploadFileName {
+    color: #1b1b1b;
+    font-size: 15px;
+}
+.uploadingfilediv .uploadingStatus {
+    margin-top: 8px;
+}
+.forLectureVideoUpload .uploadedfilelisting img {
+    width: 14px;
+    height: 14px;
+}
+p.uploadComplete svg.MuiSvgIcon-root {
+    font-size: 18px;
+}
+.MuiLinearProgress-root.linearProgressCls {
+    width: 410px;
+    margin-left: 10px;
+}
+/* .progressUploading p {
+    color: rgb(25, 118, 210);
+} */
+.progressUploading .MuiLinearProgress-bar1Indeterminate,
+.progressUploading .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(25, 118, 210);
+}
+.uploadComplete .MuiLinearProgress-bar1Indeterminate,
+.uploadComplete  .MuiLinearProgress-barColorPrimary{
+    background-color: green;
+}
+.uploadComplete .MuiLinearProgress-colorPrimary {
+    background-color: rgb(186, 197, 165);
+}
+p.uploadFileName {
+    width: 63%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+p.uploadDocName {
+    width: 90%;
+}
+
+.uploadVideodiv {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+}
+.trannningimgdiv {
+    width: 65px;
+    height: 65px;
+    opacity: 0.6;
+}
+.trannningimgdiv img {
+    width: 100%;
+    height: 100%;
+}
+.uploadVideodiv p.uplodFileTxt {
+    margin-left: 0;
+    margin-bottom: 16px;
+    font-size: 15px;
+    margin-top: 5px;
+    color: #4a4a4a;
+}
+.uploadVideoInput.onlyforuploadvdo {
+    border: none;
+    padding: 0;
+    display: block;
+    border-radius: 0;
+   height: 33px !important;
+}
+/* --Upload trainning form css end */
+
+
+/* Filter form css start */
+.signeColumn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.filterFormstart .buynowinput:first-child::before{
+    /* right: 8px */
+    right: -11px;
+    top: 41%;
+}
+.buynowinput.formarginright {
+    margin-right: 16px;
+}
+/* .filterFormstart .addbuttonfooter{
+    padding-right: 27px
+} */
+.filterFormstart .phonefieldinput .MuiInputBase-input.MuiInput-input {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+.filterFormstart .phonefieldinput {
+    border: 1px solid #e8e8e8;
+    width: 88%;
+    border-radius: 4px;
+    padding: 3px 4px 3px 7px;
+}
+.filterformdiv p.MuiTypography-root.MuiTypography-colorTextSecondary {
+    color: #545454;
+    font-size: 14px;
+    position: relative;
+}
+.filterformdiv p.MuiTypography-root.MuiTypography-colorTextSecondary:before {
+    position: absolute;
+    right: -9px;
+    width: 1px;
+    height: 100%;
+    background: #c7c7c7;
+    content: '';
+}
+/* Filter form css end */
+
+@media screen and (min-width:320px) and (max-width:768px){ 
+    .signup-pagestart {
+        padding: 0;
+        height: auto;
+    }
+    .signup-leftsidesec {
+        display: none;
+    }
+    .signup-rightsidesec {
+        padding: 3em 2em;
+        width: 100%;
+    }
+    .profiledpuploader {
+        margin: 0 auto;
+    }
+    p.already-account {
+        font-size: 16px;
+    }
+    p.forgot-password {
+        font-size: 14px;
+    }
+    .signup-pagestart.forgotpass-pagestart {
+        padding: 0;
+        display: block;
+    }
+    .forgotpass-pagestart .signup-innersec {
+        width: 100%;
+    }
+    p.signup-heading {
+        font-size: 25px;
+        padding-bottom: 11px;
+        margin: 0;
+    }
+    p.signup-subtext {
+        font-size: 15px;
+        font-weight: 400;
+    padding-bottom: 55px;
+    line-height: 20px;
+    }
+    button.buttonclass.forgot-button {
+        width: 100%;
+        margin-top: 0;
+    }
+    p.backtologin {
+        padding-top: 20px;
+    }
+    .resetpasword .error-componentstart,.loginpage-start .error-componentstart {
+        top: -9px;
+    }
+    .MuiGrid-root.signuptextfield.emailformfieldgrid {
+        padding-top: 44px;
+    }
+    .MuiGrid-root.signup-bottomgrid.MuiGrid-container {
+        flex-direction: column-reverse;
+    }
+    .MuiGrid-root.signup-bottomgrid.MuiGrid-item{
+        padding-top: 23px;
+        padding-bottom: 8px;
+    }
+    p.signupmsg {
+        position: unset;
+        width: 99%;
+        top: unset;
+        border: none;
+        transition: all 0.5s ease;
+        padding: 0;
+        font-size: 15px;
+    }
+    p.open {
+        position: relative;
+        left: 2px;
+        line-height: 28px;
+    max-height: 60px;
+    height: 58px;
+    }
+    p.close.signupmsg {
+        position: unset;
+    }
+    p.close.signupmsg::before {
+        content: unset;
+    }
+    .signupmsg::before {
+        position: absolute;
+        content: '';
+        background: blue;
+        left: -2px;
+        height: 100%;
+        width: 4px;
+        top: 0;
+    }
+    /* UploaderForm Responsive start */
+    .uploaderformstart{
+        flex-flow:column;
+        padding: 0;
+    }
+   
+    .formtextinputsection {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .fileuploadsection {
+        width: 100%;
+        margin-right: 0;
+    }
+    .uploadFormCls{
+        padding: 18px 18px;
+    }
+    .onlyfortrainingupload p{
+        font-size: 14px;
+    }
+    .onlyfortrainingupload .fileviewsection{
+        width: 62%;
+    }
+    .formtextinputsection .textfieldinput {
+        margin-bottom: 20px;
+    }
+    .addmanagerformstart .phonefieldinput input.textfieldclass {
+        width: 94%;
+    }
+    
+    
+    /* UploaderForm Responsive end */
+
+    /* Filter form Responsive start */
+    .filterFormstart .buynowinput:first-child::before{
+        right: -7%;
+    }
+    /* Filter form Responsive end */
+}
+
+/* For iPhone 5/Se Responsive start */
+@media screen and (device-aspect-ratio: 40/71){
+    .filterFormstart .buynowinput:first-child::before, .buynowinput:first-child::before{
+        right: 1.5%;
+    }
+    
+}
+/* For iPhone 5/Se Responsive start */
+
+
+/* ipad pro view start */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px) {
+    .profiledpuploader{
+        width:180px
+    }
+    p.signup-heading{
+        font-size: 38px;
+    }
+    .loginpage-start {
+        padding-top: 29.7%;
+        padding-bottom: 29.7%;
+    }
+    .forSignupForm {
+        padding: 15.8% 2em;
+    }
+    .signup-pagestart.forgotpass-pagestart {
+        padding-top: 30.4%;
+        padding-bottom: 30.4%;
+    }
+    button.buttonclass.forgot-button{
+        width: 100%;
+    }
+}
+/* ipad pro view end */
+@media screen and (min-width:320px) and (max-width:568px){
+    svg.MuiSvgIcon-root.cameraicon {
+        height: 31px;
+        width: 31px;
+    }
+    .onlyfortrainingupload .fileviewsection{
+        margin-left: 0;
+    width: 100%;
+    margin-top: 15px;
+    }
+    .onlyfortrainingupload{
+        display: unset
+    }
+}
+
+/* For iPad view start */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .onlyfortrainingupload .fileviewsection{
+        width: 80%;
+    }
+    button.MuiButton-root.buttonclass.signup-button{
+        width: unset;
+    }
+}
+/* For iPad view end */
+
+/* For MacBook Responsive start */
+@media screen and (min-width:1440px){
+    .signup-pagestart.forgotpass-pagestart {
+        padding: 5.2em 0;
+    }
+}
+/* For MacBook Responsive end */
+
+/* Mozilla view start */
+@-moz-document url-prefix() {
+
+    .signup-pagestart .textfieldclass textarea.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMultiline {
+        line-height: 7px;
+    }
+    input[type=number] { 
+        -moz-appearance:textfield; 
+    } 
+    
+
+}
+
+/* Mozilla view end */

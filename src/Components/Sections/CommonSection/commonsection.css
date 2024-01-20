@@ -1,0 +1,607 @@
+/* HeaderSection css Start */
+.hidden-md{
+    display: none
+   }
+   .hidden-xs{
+       display: block
+   }
+.headerStart {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 84%;
+}
+.headerSection {
+    background: #1e2229;
+    /* padding: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+.headerSection .hidden-xs{
+    height: 100%;
+}
+.headeLogo {
+    width: 140px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 7px;
+}
+.headeLogo img{
+    width: 100%;
+    height: 100%;
+}
+ul.headerMenu {
+    display: inline-flex;
+    margin: 0;
+    padding-right: 20px;
+    height: 100%;
+}
+ul.headerMenu li {
+    list-style: none;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    padding: 0 18px;
+    font-weight: 500;
+    height: 100%;
+}
+.chatButn {
+    align-items: center;
+    display: flex;
+    margin-left: 12px
+}
+.afterloginsec{
+display: flex;
+align-items: center
+}
+.chatButn button.MuiButton-root.buttonclass {
+    height: 32px;
+    padding: 0 16px;
+    border-radius: 2px;
+    text-transform: capitalize;
+    background: #02ad02;
+}
+.chatButn button.MuiButton-root.buttonclass:hover {
+    opacity: 1;
+    background: #029a02;
+}
+.navmenu {
+    margin: 0;
+    color: #a5b4ca;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    padding: 0 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid transparent; */
+    transition: 0.5s;
+    position: relative;
+}
+.navmenu:hover {
+    color: #eee;
+    transition: 0.5s;
+}
+.navmenu:after{
+    content:none;
+    width:100%;
+    height: 2px;
+    position: absolute;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+}
+.active-menu {
+    color:#ffffff;
+    /* border-bottom: 1px solid #fff; */
+}
+.navmenu.active-menu:after {
+    content: '';
+}
+
+.headerTopbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000;
+}
+.headerStart .headerTopbar {
+    padding: 13px 20px;
+    background: #1d2229;
+}
+.headertopbtngroup{
+    display: flex;
+}
+button.MuiButton-root.buttonclass.tobarButn {
+    background: transparent;
+    padding: 0;
+    position: relative;
+    height: 31px;
+    font-size: 16px;
+    color: #ececec;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+}
+button.MuiButton-root.buttonclass.tobarButn:hover {
+    color: #fff;
+}
+button.MuiButton-root.buttonclass.firstButn::after {
+    content: '/';
+    position: absolute;
+    right: -3px;
+    /* width: 1px; */
+    top: 0;
+    bottom: 0;
+    font-size: 20px;
+    color: #b5b5b5;
+    font-weight: 400;
+}
+.headerprofilediv {
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.headerprofilediv .sb-avatar__text{
+    border-radius: 50%
+}
+.headerprofilediv .sb-avatar__text span{
+    font-weight: 600;
+    font-size: 14px
+}
+.headerprofilediv p {
+    font-size: 15px;
+    margin: 0 2px 0 7px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.headerprofilediv img{
+    height: 100%;
+    width: 100%;
+object-fit: cover
+}
+.onlyforadminprofile {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* HeaderSection css end */
+/* ---Unauthorize css start-- */
+.unauthorize-start.signup-pagestart.forgotpass-pagestart{
+padding: 0;
+width: 100%
+}
+.trainingModule .unauthorizetraing{
+    padding: 2em;
+}
+.unauthorize-start.forgotpass-pagestart .signup-innersec{
+    width: 100%
+}
+p.already-account.unauth-alredyacc {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+/* ---Unauthorize css end-- */
+
+
+/* FooterSection css start */
+.footerSection {
+    background: #1d2229;
+    /* margin-top: 50px; */
+    padding: 80px 30px;
+    /* display: flex; */
+}
+.footerlogo {
+    width: 140px;
+    height: auto;
+    margin-bottom: 14px;
+}
+.footerlogo img{
+    width: 100%;
+    height: 100%;
+}
+h2.footerHeading {
+    color: #e8e8e8;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+    margin: 0;
+    margin-bottom: 29px;
+    font-family: 'DM Serif Display', serif;
+}
+p.footerParagraph {
+    color: #acbac7;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.footerParagraph a {
+    color: #fff;
+}
+.footerInnerSec p.footerParagraph {
+    margin-bottom: 14px;
+    display: flex;
+}
+.scocillinks svg.MuiSvgIcon-root {
+    color: #9cb3bd;
+    font-size: 33px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.scocillinks svg.MuiSvgIcon-root:hover {
+    color: #fff;
+}
+p.footerParagraph span {
+    padding-right: 14px;
+}
+p.footerParagraph svg.MuiSvgIcon-root {
+    padding: 5px;
+    font-size: 15px;
+    background: #2e73f3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.copyRightsec {
+    background: #1d2229;
+    border-top: 1px solid #2f3137;
+    padding: 6px 10px;
+}
+.copyRightsec p {
+    color: #98999a;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+.copyRightsec a {
+    /* font-size: 13px; */
+    padding-left: 5px;
+    color: #207bc5;
+    text-decoration: none;
+}
+.copyRightsec a:hover{
+    color: #1682da;
+}
+/* FooterSection css end */
+
+/* LeftSidebarSection css start */
+.leftSidebarStart {
+    height: 100%;
+    /* background: #222; */
+    background: #2a323c;
+    position: fixed;
+    width: 16.8%;
+    overflow: auto;
+}
+.leftSidebarStart .headeLogo{
+    margin: 20px auto;
+    width: 110px;
+}
+ul.leftsideMenu {
+    padding: 10px 0;
+    margin: 0;
+
+}
+
+ul.leftsideMenu li{
+    list-style: none
+}
+.singlemenu{
+    padding: 0 0 0 25px;
+    color: #e8e8e8;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    border-left: 4px solid transparent;
+    border-bottom: 1px solid #efefef12;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 50px;
+}
+.activeSinglemenu{
+    border-left: 4px solid #8897ab;
+    background: #a5b4ca35;
+    transition: 0.5s;
+    color: #a7b7d0; 
+}
+.singlemenu:hover{
+    color: #a7b7d0;
+}
+.singlemenu i{
+    margin-right: 10px;
+}
+i.arrowicn {
+    margin-left: 5px;
+    margin-right: 0;
+    color: #aaa;
+}
+ul.subQuickMenu {
+    padding: 0;
+    background: #1e242b;
+}
+.submenustart{
+    /* line-height: 37px; */
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 0.5s;
+    transition-property: height;
+    transition-duration: 0.5s;
+}
+.showSubMenu{
+    transition: all 0.5s ease;
+    height: 161px;
+}
+.closeshowMenu{
+    height: 0;
+}
+p.singlemenu.subSingleMenu {
+    padding-left: 45px;
+    /* border-bottom: none; */
+    height: 40px;
+    font-size:14px;
+}
+.subSingleMenu i.ri-checkbox-blank-circle-fill {
+    font-size: 5px;
+    color: #eee;
+}
+.borderNone{
+    border-bottom: none;
+}
+ul.subQuickMenu a {
+    text-decoration: none;
+}
+/* .cover-bar {
+    position: absolute;
+    background: #fff;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 0px!important;
+    -webkit-transition: all .5s;
+    opacity: 1;
+} */
+
+/* .grouptab-scrollablearea {
+    width: 100%;
+    position: relative;
+} */
+/* .gruppagetoppadding{
+    padding-top: 52px; 
+} */
+.leftsidebarScroll::-webkit-scrollbar {
+    width: 0px !important; 
+  }
+
+  .leftsidebarScroll::-webkit-scrollbar,
+  .leftsidebarScroll::-webkit-scrollbar-thumb {
+    overflow:visible;
+    border-radius: 4px;
+  }
+  .leftsidebarScroll::-webkit-scrollbar-thumb {
+    background: transparent !important;
+    width: 0px;
+  }
+
+
+/* LeftSidebarSection css end */
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .headerprofilediv p{
+        font-size: 14px
+    }
+    .footerlogo{
+        width: 120px;
+    }
+    .hidden-md{
+        display: block
+    }
+    .hidden-xs{
+           display: none
+    }
+     /* ---header responsive start-- */
+     .headerTopbar{
+        align-items: center;
+     }
+     .headerStart .headerTopbar {
+        padding: 9px 11px;
+        justify-content: space-between;
+     }
+     .headerStart{
+         width: 100%;
+         position: unset
+     }
+     .headerSection {
+        padding: 0 15px ;
+    }
+    .headeLogo {
+        margin-left: 0;
+        /* width: 110px; */
+        width: 50%;
+    }
+    svg.MuiSvgIcon-root.menu-drawer {
+        color: #fff;
+    }
+    ul.headerMenu{
+        height: auto;
+    }
+    ul.header-menuformobile {
+        display: block;
+        padding: 30px 29px 0;
+    }
+    ul.headerMenu li{
+        height: 50px;
+        width: 100%;
+        padding: 0;
+    }
+    .chatButn button.MuiButton-root.buttonclass{
+        height: 32px;
+        padding: 0 7px;
+        min-width: 72px;
+        font-size: 77%;
+        line-height: 15px;
+    }
+    .navmenu.active-menu:after{
+        content: none;
+    }
+    /* .header-menuformobile p.active-menu {
+        color: #212121;
+        border-color: #212121;
+    } */
+    .header-menuformobile .navmenu {
+        padding: 0;
+    }
+    svg.MuiSvgIcon-root.drawercloseimg {
+        position: absolute;
+        right: 2px;
+        top: 0px;
+        font-size: 21px;
+        padding: 10px;
+        /* border-radius: 50%; */
+        color: #fff;
+    }
+    .header-drawer .MuiPaper-root.MuiDrawer-paper {
+        width: 55%;
+        box-shadow: none;
+        background-color: #1e2229;
+    }
+    .MuiDrawer-root.MuiDrawer-modal.header-drawer {
+        width: 100%;
+    }
+    .header-menuformobile ul.headerMenu li {
+        padding: 0;
+        font-size: 17px;
+    }
+    .bergerMenuIcn svg.MuiSvgIcon-root {
+        color: #c5c5c5ee;
+    }
+    .bergerMenuIcn {
+        display: flex;
+        align-items: center;
+    }
+    .leftSidebarStart{
+        width: 60%;
+    }
+    .drawerCloseIcn {
+        text-align: right;
+        padding-top: 10px;
+        padding-right: 10px;
+        position: absolute;
+        right: 0;
+    }
+    .drawerCloseIcn svg.MuiSvgIcon-root{
+        color: #cccc;
+        font-size: 20px;
+    }
+    .hidden-md.mobileLeftsideTopbar {
+        display: flex !important;
+        align-items: center;
+        width: 40%;
+    }
+    .mobileLeftsideTopbar .headeLogo {
+        margin-left: 17px;
+        margin-top: 5px;
+    }
+      /* ---header responsive end-- */
+    /* Footer Responsive css start */
+    h2.footerHeading {
+        margin-bottom: 25px;
+    }
+    .copyRightsec p {
+        line-height: 17px;
+    }
+    /* Footer Responsive css end */
+    
+}
+
+/* For iPhone 5/Se Responsive start */
+
+@media screen and (device-aspect-ratio: 40/71){
+    .mobileLeftsideTopbar .headeLogo{
+        width: 71px;
+        margin-left: 9px;
+    }
+    .headerTopbar{
+        padding: 9px 9px;
+    }
+    .headerprofilediv .sb-avatar__text {
+        border-radius: 50%;
+        width: 28px !important;
+        height: 28px !important;
+    }
+    .headerprofilediv svg.MuiSvgIcon-root{
+        font-size: 16px;
+    }
+        .afterloginsec .headerprofilediv.sb-avatar.sb-avatar--text {
+        margin-left: 19px;
+    }
+    .headerprofilediv .sb-avatar__text.MuiSvgIcon-root {
+       width:20px ;
+    }
+    .chatButn {
+    margin-left: 7px;
+    }  
+    .chatButn button.MuiButton-root.buttonclass {
+        height: 30px;
+        padding: 0 4px;
+        font-size: 12px;
+    }
+    .headerprofilediv p {
+        margin: 0 2px 0 4px; 
+    } 
+}
+
+/* For iPhone 5/Se Responsive end */
+
+/* for ipad view responsive start */
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .hidden-xs {
+        display: none !important;
+    }
+    .hidden-md {
+        display: block !important;
+    }
+    .header-drawer .MuiPaper-root.MuiDrawer-paper{
+        width: 35%;
+    }
+    .leftSidebarStart {
+        width: 42%;
+    }
+    .headeLogo {
+        margin-left: 0;
+        /* width: 110px; */
+        width: 25%;
+    }
+    
+}
+
+/* for ipad view responsive end */
+
+/* for ipad pro view responsive start */
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px){
+    ul.headerMenu li{
+        padding: 0 12px;
+    }
+    .unauthorize-start.signup-pagestart.forgotpass-pagestart{
+        margin-bottom: 22.4rem;
+    }
+}
+
+/* for ipad pro view responsive end */
+
+
+@media only screen and (min-width: 320px) and (max-width: 568px){
+    ul.header-menuformobile{
+        padding: 30px 25px 0;
+    }
+}

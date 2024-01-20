@@ -1,0 +1,442 @@
+/* text field input start */
+.textfieldinput .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline.MuiInputBase-marginDense.MuiOutlinedInput-marginDense{
+padding: 0;
+border: 1px solid #e8e8e8;
+}
+.textfieldinput .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline.MuiInputBase-marginDense.MuiOutlinedInput-marginDense:focus-within {
+    border: 1px solid #7d7d7d !important;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.textfieldinput {
+    margin-bottom: 12px;
+}
+ .textfieldclass fieldset{
+    border-color: #dedddd !important;
+    border-radius: 4px !important;
+    opacity: 0;
+    /* height: 91% !important;
+    top:unset !important; */
+}
+.errorinput select {
+    border: 1px solid #f4443e;
+}
+input.textfieldclass.inputmaskerror {
+    border-color: #f4443e !important;
+}
+.textfieldinput .MuiOutlinedInput-root.Mui-error input {
+    border-color: #f44336 !important;
+    border-width: 1px;
+    border-radius: 2px;
+}
+.textfieldinput .MuiOutlinedInput-root.Mui-error textarea {
+    border-color: #f44336 !important;
+    border-width: 1px;
+    border-radius: 0
+}
+.textfieldinput .textfieldclass input{
+    border: 1px solid #e8e8e8;
+    padding: 8px !important;
+    font-size: 15px;
+    border-radius: 3px;
+    height: 26px;
+}
+.textfieldinput .textfieldclass input:focus  {
+    border-color: #7d7d7d !important;
+    border-radius: 3px;
+    opacity: 1;
+}
+.textfieldinput .textfieldclass textarea{
+    padding: 11.5px 10px;
+    line-height: 19px;
+    font-size: 15px;
+}
+.chipfeild input:focus{
+    border-color: transparent !important;
+    border-radius: 3px !important;
+    opacity: 0.8;
+    border-radius: 0
+}
+.chipfeild input{
+    border:1px solid transparent
+}
+.textfieldinput .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-marginDense.MuiOutlinedInput-marginDense:hover{
+    border-color: transparent;
+}
+.textfieldinput .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiOutlinedInput-adornedEnd.MuiInputBase-marginDense.MuiOutlinedInput-marginDense{
+    position: relative;
+    padding: 0
+}
+.textfieldinput .MuiInputAdornment-root.MuiInputAdornment-positionEnd.MuiInputAdornment-marginDense {
+    position: absolute;
+    right: 16px;
+}
+.MuiFormControl-root.MuiTextField-root.textfieldclass.MuiFormControl-marginDense {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 3px;
+}
+label.MuiFormLabel-root.MuiInputLabel-root.textinputlabel.MuiInputLabel-animated.MuiInputLabel-shrink {
+    color: #020202;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-bottom: 4px;
+    display: flex;
+}
+.textfieldclass input.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputMarginDense.MuiOutlinedInput-inputMarginDense::-webkit-input-placeholder{    
+    color: #2b2b2b;
+    font-size: 13px;
+    font-weight: 300;
+  }
+.textfieldinput form{
+      height: 100%;
+      width: 100%;
+      position: relative;
+  }
+  p.errormsg {
+    margin: 0;
+    position: absolute;
+    color: #f44336;
+    bottom: -25px;
+    left: 0px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+    font-weight: 500;
+}
+.uploadFormCls p.errormsg{
+    bottom: 9px;
+    left: 26px;
+}
+.trainningvideoformstart p.errormsg{
+    bottom: 27px;
+    left: 26px;
+}
+svg.MuiSvgIcon-root.erroricon {
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+}
+.textfieldclass .MuiIconButton-root {
+    padding: 5px;
+}
+label.MuiFormLabel-root.textinputlabel span.MuiFormLabel-asterisk.MuiInputLabel-asterisk {
+    color: #ff0404;
+}
+.MuiFormHelperText-root.emailregistartedmsg span {
+    color: #5e7ef6;
+    font-weight: 500;
+    cursor: pointer;
+}
+.MuiFormHelperText-root.emailregistartedmsg{
+    font-size: 12px;
+    position: absolute;
+    bottom: -23px;
+}
+/* text field input end */
+
+.phonefieldinput .MuiInputBase-input.MuiInput-input{
+    padding: 12px 14px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+.phonefieldinput label + .MuiInput-formControl{
+    margin-top: 20px;
+}
+
+.MuiInput-underline:before{
+    border-bottom: none !important
+}
+.MuiInput-underline:after{
+    border-bottom: none !important
+}
+
+/* ---Phone field input start--- */
+.phonefieldinput input.textfieldclass {
+    padding: 8px 10px;
+    border-radius: 3px;
+    box-shadow: none;
+    outline-offset: 0;
+    border: 1px solid #e8e8e8;
+    color: #1c1c1c;
+    width: 90%;
+    height: 26px;
+    font-size: 15px;
+}
+.phonefieldinput input.textfieldclass:focus {
+    outline: none;
+    border-color: #7d7d7d;
+}
+
+
+
+.phonefieldinput .MuiInputBase-input.MuiInput-input{
+    padding: 12px 14px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+}
+.phonefieldinput label + .MuiInput-formControl{
+    margin-top: 20px;
+}
+
+.MuiInput-underline:before{
+    border-bottom: none !important
+}
+.MuiInput-underline:after{
+    border-bottom: none !important
+}
+/* ---Phone field input end--- */
+/* --password field input start-- */
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.passwordfieldinput.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    transition:none;
+    border-radius: 3px;
+    width: 100%;
+}
+.passwordfieldinput.MuiFilledInput-underline:before {
+border-bottom: none;
+transition:none;
+}
+.passwordfieldinput.MuiFilledInput-underline:hover:before {
+    border-bottom: none;
+    transition:none;
+}
+.passwordfieldinput.MuiFilledInput-underline:after {
+    border:none;
+}
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.passwordfieldinput.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense input {
+    padding: 6px 8px;
+    height: 29px;
+}
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.passwordfieldinput.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.passwordfieldinput.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense:focus,
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.passwordfieldinput.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.passwordfieldinput.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense:focus-within {
+
+    border: 1px solid #787878 !important;
+    outline: none;
+}
+/* --password field input end-- */
+
+/* Search field css start */
+.textfieldinput.serachfieldinputstart {
+    padding: 10px 10px;
+    margin: 0;
+}
+.textfieldinput.serachfieldinputstart .MuiFormControl-root{
+    width: 100%
+}
+.textfieldinput.serachfieldinputstart .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedStart{
+    width: 100%;
+    background-color: #f2f4f5;
+    padding: 8px 6px;
+    border-radius: 4px;
+}
+.textfieldinput.serachfieldinputstart svg{
+    height: 18px;
+    width: 18px;
+    fill: #7d7d7d;
+}
+.textfieldinput.serachfieldinputstart .MuiInputBase-input{
+    padding: 0;
+    font-size: 14px
+}
+/* Search field css end */
+
+/* ----dropdown css start--- */
+.dropdownancher .MuiPaper-elevation1 {
+    position: relative;
+    box-shadow: none;
+    background: #000;
+    color: #fff;
+}
+.dropdownancher .MuiPopover-paper {
+    overflow: visible;
+}
+.dropdownancher .MuiPaper-elevation1::after {
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #000;
+    position: absolute;
+    top: -9px;
+    content: '';
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.dropcls {
+    font-size: 13px;
+    color: #fff;
+    line-height: 4px;
+    min-height: 38px;
+    padding: 0 48px 0 8px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+    width: 100%
+}
+.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.dropcls:hover {
+    background: #474a4c;
+}
+.dropimg {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+}
+.dropdownancher .MuiList-padding {
+    padding-bottom: 4px;
+    padding-top: 6px;
+}
+.dropdownancher .MuiList-root .dropcls:last-child {
+    border-top: 1px solid #1e2229;
+    padding-top: 4px;
+}
+.dropdownancher .MuiList-root .dropcls.admindropdown {
+    border-bottom: 1px solid #1e2229;
+}
+.dropdownancher {
+    z-index: 9999;
+    cursor: default;
+}
+/* ----dropdown css end---- */
+/* ----togglebtn button css start--- */
+.togglebtn .MuiSwitch-switchBase.MuiSwitch-colorSecondary.Mui-checked {
+    color: #395eaf;
+}
+.togglebtn .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #395eaf;
+}
+.togglebtn label.MuiFormControlLabel-root {
+    margin-right: 0;
+}
+.togglebtn span.MuiTypography-root {
+    font-size: 14px;
+}
+/* .antswitch .MuiSwitch-track::after {
+    position: absolute;
+    content: 'Deactive';
+    color: #4c4c4c;
+    opacity: 0.8;
+    right: 8px;
+    top: 9px;
+    bottom: 0;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.antswitch .MuiSwitch-track {
+    position: relative;
+    opacity: 1;
+    background-color: #80808000;
+    border: 1px solid #b7b7b7;
+}
+.antswitch .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+    background: transparent;
+    border: 1px solid #3f51b5;
+    opacity: 1;
+}
+.antswitch .MuiSwitch-colorPrimary.Mui-checked {
+    color: #fff !important;
+}
+.antswitch .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track::before {
+    position: absolute;
+    content: 'Active';
+    color: #3f52b5;
+    opacity: 1;
+    left: 8px;
+    top: 9px;
+    bottom: 0;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.togglecls .antswitch .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track::before{
+    display: none;
+}
+.antswitch .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track::after {
+    display: none;
+}
+
+span.MuiSwitch-root.antswitch {
+    width: 80px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    overflow: visible;
+}
+.antswitch .MuiSwitch-switchBase {
+    top: 6px;
+    left: 5px;
+    padding: 0;
+}
+.antswitch .MuiSwitch-track {
+    border-radius: 51px;
+}
+.antswitch .MuiIconButton-label .MuiSwitch-thumb {
+    width: 15px;
+    height: 15px;
+    background-color: #b7b7b7;
+}
+.antswitch .MuiSwitch-switchBase.Mui-checked .MuiSwitch-thumb {
+    background-color: #3f52b5;
+}
+
+.antswitch .MuiSwitch-switchBase.Mui-checked {
+    transform: translateX(339%);
+}
+.togglebtnbtn .antswitch .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track::before{
+    left: 7px;
+}
+.togglebtnbtn .MuiSwitch-colorPrimary.Mui-checked:hover,.togglebtnbtn .MuiIconButton-root:hover{
+background: transparent !important
+} */
+/* ---togglebtn button css end */
+
+/* ChipField Input css start */
+.WAMuiChipInput-underline-618:before{
+    border: none
+}
+ 
+.chipfeild .WAMuiChipInput-underline-239::after,
+ .chipfeild .WAMuiChipInput-underline-239::before{
+    content: '';
+    display: none;
+}
+.chipfeild .WAMuiChipInput-chipContainer-229 {
+    background: transparent;
+    max-width: 96%;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    background: #fff;
+    max-height: 44px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.chipfeild .WAMuiChipInput-chip-241 {
+    margin: 4px;
+    /* background: #f9f9f9; */
+}
+.MuiFormControl-root.chipinputdiv {
+    width: 100%;
+}
+/* ChipField Input css end */
+
+
+/* for Mac Book Air Resolution responsive start */
+@media screen and (min-width:1440px){
+    p.errormsg{
+        font-size: 13px;
+    }    
+}
+/* for Mac Book Air Resolution responsive end */

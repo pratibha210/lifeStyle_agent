@@ -1,0 +1,735 @@
+.converstaionsidebarstart {
+    background-color: #fbfbff;
+    position: fixed;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    /* overflow-y: auto; */
+    border-right: 1px solid whitesmoke
+
+}
+
+.coversationcarddiv{
+    /* overflow-y: auto */
+}
+.coversationcarddiv{
+    height: 535px;
+    overflow-y: auto;
+}
+.coversationcarddiv::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .coversationcarddiv::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  .coversationcarddiv::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .coversationcarddiv::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+p.conversationheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+    color: #1f2229;
+    font-family: 'Roboto',sans-serif;
+    padding: 19px 12px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.conversationsidetop{
+    border-bottom: 1px solid #e4e4e4;
+    /* position: sticky;
+    top: 0; */
+    background-color: white;
+    /* z-index: 9; */
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.homebtnstart {
+    height: 30px;
+    background: transparent;
+    color: black;
+    line-height: 0;
+    opacity: 0.6;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.homebtnstart:hover {
+    opacity: 10;
+}
+.homebtnstart img.buttonimage {
+    height: 14px;
+    width: 15px;
+    margin-right: 8px;
+    margin-top: -3px;
+}
+/* conversation main css start */
+.agentmessagestart .sb-avatar.sb-avatar--text {
+    width: 60px !important;
+    height: auto !important;
+}
+.agentmessagestart .sb-avatar__text {
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.agentmessagestart .sb-avatar__text span {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+.conversationheader {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e4e4e4;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9;
+    display: flex;
+    align-items: center
+}
+p.coversationpersoname {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+    color: #1f2229;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 5px;
+}
+.personactiveindication {
+   margin: 0;
+    font-size: 13px;
+    color: #717171;
+    display: flex;
+    align-items: center;
+}
+.personactiveindication p {
+    margin: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #54d388;
+    margin-right: 5px;
+}
+.messagessectiondiv {
+    padding: 25px 14px 70px;
+}
+.agentmessagestart {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.messagesection p.receivingtimetext {
+    margin: 0;
+    font-size: 12px !important;
+    text-align: right;
+    line-height: unset!important;
+    color: #ababab;
+    font-weight: 500;
+}
+.messagesection p {
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 23px;
+    margin: 12px 0 0;
+    font-family: 'Roboto',sans-serif;
+}
+.managermessagestart {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* border-radius: 13px; */
+}
+.messagesection {
+    background-color: #f2f2f2;
+    max-width: 70%;
+    padding: 7px 12px 12px;
+    border-radius: 7px;
+    position: relative;
+}
+.managermessagestart .messagesection p.receivingtimetext {
+    text-align: left;
+}
+.receiving.messagesection:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -8px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 10px solid;
+    border-color: #f2f2f2 transparent transparent transparent;
+}
+.sending.messagesection:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -6px;
+    top: 0;
+    bottom: auto;
+    border: 7px solid;
+    border-color: #f2f2f2 transparent transparent transparent;
+}
+ul.flex-wrap {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 0
+    /* margin: 0; */
+}
+ul.flex-wrap li {
+    height: 93px;
+    width: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.attachimgcls {
+    height: 85px;
+    width: 85px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #c7c7c7;
+    cursor: pointer;
+}
+.attachimgcls img{
+    height: 100%;
+    width: 100%;
+}
+
+  .progress span{
+    transition: all 500ms ease;
+    background: #b9b9b9;
+    height: 5px;
+    width: 5px;  
+    display: inline-block;
+    border-radius: 10px;
+    animation: wave 2s ease  infinite;
+    margin-right: 3px;
+  
+  }  
+  
+  .progress span:nth-child(1){  animation-delay: 0; }
+  .progress span:nth-child(2){  animation-delay: 100ms; }
+  .progress span:nth-child(3){  animation-delay: 200ms; }
+  .progress span:nth-child(4){  animation-delay: 300ms; }
+  .progress span:nth-child(5){  animation-delay: 400ms; }
+  .progress span:nth-child(6){  animation-delay: 500ms; }
+  .progress span:nth-child(7){  animation-delay: 600ms; }
+  .progress span:nth-child(8){  animation-delay: 700ms; }
+  
+  @keyframes wave{
+    0%, 40%, 100% { 
+      transform: translate(0, 0);
+      background-color: #d8d6d6;    
+    }
+    10% { 
+      transform: translate(0, -15px); 
+      background-color: #696767;    
+    }  
+  }
+  .conversationmainstart {
+    border-left: 1px solid #e4e4e4;
+}
+.typingmessagediv {
+    display: flex;
+    align-items: flex-end;
+    /* width: 100%; */
+    /* align-items: center; */
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px 10px 25px 0;
+}
+.typingmessagediv .textfieldinput {
+    margin: 0;
+    width: 95%;
+}
+.typingmessagediv .textfieldinput .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline.MuiInputBase-marginDense.MuiOutlinedInput-marginDense {
+    border: none;
+}
+.typingmessagediv .textfieldinput .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline.MuiInputBase-marginDense.MuiOutlinedInput-marginDense:focus-within {
+    border:none !important;
+}
+.attachfileimg img{
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+}
+.attachfileimg {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.attachfileimg:hover {
+
+    background-color: #d4d4d4;
+}
+.typingmessagediv .buttoncomponent-start{
+    height: 100%;
+    width: 12%;
+}
+.MuiButton-text.messagesendbtn {
+    height: 43px !important;
+    width: 100%;
+    padding: 0 !important;
+    max-width: 100%;
+    border-radius: 0 3px 3px 0 !important;
+    min-width: 0;
+    font-size: 16px !important
+}
+.attachdialogstart .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-elevation24.MuiPaper-rounded{
+    width: 600px
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.messagesendbtn span.MuiButton-label {
+    display: flex;
+    flex-flow: row-reverse;
+}
+.messagesendbtn img.buttonimage {
+    height: 16px;
+    width: 20px;
+    margin-left: 14px;
+}
+.textfieldinputdesign {
+    display: flex;
+    align-items: center;
+    width: 86%;
+    background-color: #f2f4f5;
+    border-radius: 3px 0 0 3px;
+    padding-left: 5px;
+}
+.tofixfootertext{
+    position: fixed;
+    bottom: 0;
+    width: 74%;
+    right: 0;
+}
+p.documentnametext {
+    border-radius: 4px;
+    background-color: white;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.MuiCircularProgress-root.downloadingprogress {
+    color: #5a5a5a;
+    width: 15px !important;
+    height: 15px !important;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.fordownling {
+    display: flex;
+    align-items: center;
+}
+p.documentnametext img {
+    height: 20px;
+    width: auto;
+    margin-right: 7px;
+}
+ .attachdialogstart .filepicker.dropzone.dz-clickable {
+    background-color: transparent;
+    min-height: 400px;
+    max-height: 400px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border: none;
+    overflow-y: auto;
+    position: relative;
+    text-align: left;
+    padding: 5px 0 5px 15px;
+}
+.attachdialogstart .dropzone .dz-preview:hover .dz-details{
+    opacity: 0;
+}
+.attachdialogstart .dz-default.dz-message {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.attachdialogstart .dropzone .dz-preview {
+    width: 110px;
+    height: 110px;
+    margin-top: 0;
+    min-height: 85px;
+    margin: 10px 10px 3px 2px;
+}
+.attachdialogstart .dropzone .dz-preview .dz-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #f1f1f1;
+}
+.attachdialogstart .dropzone .dz-preview.dz-error .dz-error-message{
+    display: none
+}
+.attachdialogstart .MuiDialogTitle-root {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 8px 16px;
+}
+.attachdialogstart .MuiDialogTitle-root h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #4c4c4c;
+    font-size: 18px;
+}
+.attachdialogstart .MuiDialogTitle-root h2 svg{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.attachdialogstart .dropzone .dz-preview:hover a.dz-remove {
+   opacity: 1 !important;
+}
+.attachdialogstart a.dz-remove {
+    opacity: 0 !important;
+    /* display: none; */
+    font-size: 0 !important;
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    background: url('../../../Images/close.png');
+    background-size: 14px;
+    background-position: center;
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 14px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.attachdialogstart.dropzone .dz-preview .dz-details {
+    bottom: -25px;
+    top: unset;
+    left: 0;
+    opacity: 1;
+    font-size: 10px;
+    padding: 4px 0;
+    color: rgb(68, 68, 68);
+    border: 1px solid #f1f1f1;
+}
+.attachdialogstart .dropzone .dz-preview .dz-details .dz-filename:hover span{
+    border: none
+}
+.attachdialogstart .dropzone .dz-preview .dz-details .dz-filename:hover{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.attachdialogstart .dropzone .dz-preview .dz-details .dz-size{
+    display: none
+}
+.dropzone .dz-preview.dz-image-preview {
+    background-color: transparent;
+    position: relative;
+}
+.attachdialogstart .dropzone .dz-preview .dz-progress {
+    left: 71%;
+    width: 51px;
+}
+.attachdialogstart .dropzone .dz-preview .dz-success-mark,.attachdialogstart .dropzone .dz-preview .dz-error-mark {
+    top: 50%;
+    left: 60%;
+}
+.attachdialogstart .dropzone .dz-preview .dz-success-mark svg,.attachdialogstart .dropzone .dz-preview .dz-error-mark svg {
+    width: 40px;
+    height: 53px;
+}
+.attachdialogstart .dropzone .dz-preview .dz-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+
+p.firstuploadtext {
+    color: #9a9a9a;
+    font-family: 'Roboto',sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+p.seconduploadtext {
+    color: #828282;
+    font-family: 'Roboto',sans-serif;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+p.dropzonebtn {
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    background-color: #0378e6;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 10px 0;
+    cursor: pointer;
+    opacity: 0.8;
+}
+p.dropzonebtn:hover {
+    opacity: 1;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.sendfilebtn {
+    padding: 17px 24px;
+    height: 0;
+    line-height: 0;
+    min-width: 0;
+    text-transform: capitalize;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.buttonclass.cancelfilebtn{
+    padding: 17px 24px;
+    height: 0;
+    line-height: 0;
+    min-width: 0;
+    text-transform: capitalize;
+    background: transparent;
+    color: #585757;
+    margin-right: 12px;
+}
+.fileattachmentsendsec {
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px;
+}
+/* conversation main css end */
+
+/* before accepting modal css start */
+.beforeacceptingconversation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7em 0 5em;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 30px;
+}
+.acceptionconfirmationcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.sendingagentprofile {
+    border-radius: 8px;
+    /* overflow: hidden; */
+    position: relative;
+}
+.acceptionconfirmationcard .sb-avatar__text{
+    border-radius: 10px
+}
+.acceptionconfirmationcard .sb-avatar__text span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.beforeacceptingconversation .onlineindication {
+    height: 14px;
+    width: 14px;
+    top: -7px;
+    right: -7px;
+}
+.acceptionconfirmationcard p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #333232;
+    margin: 15px 0 20px;
+}
+.acceptingcard p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #545454;
+}
+.acceptingcard p span {
+    font-weight: 500;
+    color: #272626;
+}
+.acceptingcard {
+    background-color: #f0f5fe;
+    border-radius: 5px;
+    padding: 2em 3em;
+}
+.acceptingbtngroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 0;
+}
+button.declinemessagebtn {
+    background: transparent !important;
+    border: 1px solid #3b63b5;
+    margin-right: 16px;
+    color: #3960b1 !important;
+    padding: 16px 30px !important;
+    height: 0 !important;
+    line-height: 0 !important;
+    text-transform: capitalize;
+    /* height: 0; */
+    border-radius: 5px !important;
+}
+\button.acceptmessagebtn {
+    /* background: transparent !important; */
+    border: 1px solid #3b63b5;
+    margin-right: 16px;
+    /* color: #3960b1 !important; */
+    padding: 16px 30px !important;
+    height: 0 !important;
+    line-height: 0 !important;
+    text-transform: capitalize;
+}
+/* before accepting modal css end */
+
+/* Responsive css start */
+@media screen and (min-width:320px) and (max-width:768px){ 
+    .converstaionsidebarstart{
+        position: unset;
+        width: 100%;
+        height: unset;
+        overflow: hidden
+    }
+    .managerconversationmodulestart{
+        overflow: hidden;
+    }
+    .coversationsecondline p {
+        width: 255px;
+    }
+    .coversationfirstline p {
+        width: 210px;
+    }
+    .conversationsidetop{
+        position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    }
+    .coversationcarddiv{
+        margin-top: 123px
+    }
+    .nextarrowimg {
+        height: 20px;
+        width: 20px;
+        margin-right: 12px;
+    }
+    .nextarrowimg img {
+        height: 100%;
+        width: 100%;
+        /* margin-right: 12px; */
+    }
+    .messagesendbtn img.buttonimage {
+        height: 16px;
+        width: 20px;
+        margin-left: 8px;
+    }
+    .MuiButton-text.messagesendbtn{
+        text-transform: capitalize
+    }
+    .typingmessagediv .buttoncomponent-start {
+        height: 100%;
+        width: 33%;
+    }
+    .tofixfootertext {
+        width: 100%;
+    }
+    .typingmessagediv {
+        padding: 10px 10px 10px 10px;
+    }
+    .messagesection {
+        max-width: 75%;
+    }
+    .attachimgcls {
+        height: 70px;
+        width: 70px;
+    }
+    ul.flex-wrap li {
+        height: 80px;
+        width: 80px;
+    }
+    .attachdialogstart .MuiPaper-root.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.MuiPaper-elevation24.MuiPaper-rounded {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        min-height: 100%;
+        border-radius: 0;
+        min-width: 100%;
+    }
+}
+/* For iPhone 5/Se Responsive start */
+
+@media screen and (device-aspect-ratio: 40/71){
+    .coversationfirstline, .coversationsecondline{
+        /* width: 97%; */
+        width: 85%;
+    }
+    p.messagenumber{
+        margin: 0 8px 0 0;
+    }
+    .headerprofilediv p {
+    font-size: 12px;
+}
+.coversationcarddiv{
+    overflow-x: hidden;
+}
+p.dropzonebtn{
+    width: 65%;
+}
+}
+
+/* For iPad Responsive start */
+@media screen and (min-width:768px) and (max-width:1023px){
+    p.dropzonebtn{
+        width: 30%;
+    }
+}
+/* For iPad Responsive end */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px) {
+    .converstaionsidebarstart {
+        width: 32.8%;
+    }
+    .messagesection {
+                max-width: 88%;
+   
+    }
+    .tofixfootertext {
+       
+        width: 67%;
+    }
+    .typingmessagediv .buttoncomponent-start {
+        width: 16%;
+    }
+    .typingmessagediv{
+        padding: 10px 10px 25px 9px;
+    }
+}
+/* Responsive css end */
